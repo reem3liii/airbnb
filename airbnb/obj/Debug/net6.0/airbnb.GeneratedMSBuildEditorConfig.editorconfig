@@ -1,0 +1,245 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = airbnb
+build_property.RootNamespace = airbnb
+build_property.ProjectDir = D:\iti\.GB\airbnb\airbnb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\iti\.GB\airbnb\airbnb
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Contracts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Contracts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Contracts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Contracts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Contracts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customer_Phone/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJfUGhvbmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customer_Phone/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJfUGhvbmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customer_Phone/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJfUGhvbmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customer_Phone/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJfUGhvbmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Customer_Phone/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJfUGhvbmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owner_Phone/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJfUGhvbmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owner_Phone/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJfUGhvbmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owner_Phone/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJfUGhvbmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owner_Phone/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJfUGhvbmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Owner_Phone/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJfUGhvbmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Places/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Places/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Places/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Places/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Places/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Image/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfSW1hZ2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Image/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfSW1hZ2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Image/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfSW1hZ2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Image/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfSW1hZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Image/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfSW1hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Service/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfU2VydmljZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Service/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfU2VydmljZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Service/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfU2VydmljZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Service/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfU2VydmljZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Place_Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VfU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Rents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Rents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Rents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Rents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Rents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Reviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Reviews/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Reviews/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Reviews/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Reviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3akwo6hg52
