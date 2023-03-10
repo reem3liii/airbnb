@@ -3,30 +3,65 @@
     ViewData["Title"] = "Register";
 }
 
-<h1>Register</h1>
-<br />
-<br />
-<form method="post">
-    <div asp-validation-summary="ModelOnly"></div>
-    <br />
-    <label asp-for="FirstName"></label> <input asp-for="FirstName" />
-    <span asp-validation-for="FirstName"></span><br />
-    <br />
-    <label asp-for="LastName"></label> <input asp-for="LastName" />
-    <span asp-validation-for="LastName"></span><br />
-    <br />
-    <label asp-for="DOB"></label> <input asp-for="DOB" />
-    <span asp-validation-for="DOB"></span><br />
-    <br />
-    <label asp-for="Email"></label> <input asp-for="Email" />
-    <span asp-validation-for="Email"></span><br />
-    <br />
-    <label asp-for="Password"></label> <input asp-for="Password" />
-    <span asp-validation-for="Password"></span><br />
-    <br />
-    <label asp-for="CPassword"></label> <input asp-for="CPassword" />
-    <span asp-validation-for="CPassword"></span><br />
-    <br />
-    <input type="submit" value="Register" />
-</form>
+<div class="d-flex flex-row">
+    <img src="~/images/Register.png" width="48%" />
+    <form method="post" style="margin: 0% 15%">
+
+        <div class="col">
+            <label asp-for="FirstName" class="form-label fw-bold mt-2"> First name</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-user"></i></i></span>
+                <input asp-for="FirstName" class="form-control rounded " aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+        <div class="col">
+            <label asp-for="LastName" class="form-label fw-bold mt-1"> Last name</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa-regular fa-user"></i></span>
+                <input asp-for="LastName" class="form-control rounded " aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+        <div class="col">
+            <label asp-for="DOB" class="form-label fw-bold mt-1"> Date of birth</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa-regular fa-calendar-days"></i></span>
+                <input asp-for="DOB" class="form-control rounded " aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+        <div class="col">
+            <label asp-for="Email" class="form-label fw-bold mt-1"></label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-envelope"></i></span>
+                <input asp-for="Email" class="form-control rounded " aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+
+        <div class="col">
+            <label asp-for="Password" class="form-label fw-bold mt-1"></label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-lock"></i></span>
+                <input asp-for="Password" class="form-control rounded" aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+        <div class="col">
+            <label asp-for="CPassword" class="form-label fw-bold mt-1">Confirm password</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-unlock"></i></span>
+                <input asp-for="CPassword" class="form-control rounded" aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert" style="width:400px"></div>
+        
+        <div class="text-center">
+            <input type="submit" value="Register" class="btn btn-outline-danger text-center mt-4" style="width:300px" />
+        </div>
+        <div class="text-center mt-1">
+            <p>Already have an account? <a asp-area="" asp-controller="Users" asp-action="Login" class="link-danger">Login</a></p>
+        </div>
+    </form>
+</div>
+
+
+
 

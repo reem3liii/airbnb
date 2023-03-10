@@ -2,19 +2,36 @@
 @{
     ViewData["Title"] = "Login";
 }
+<div class="d-flex flex-row">
+    <img src="~/images/Login.png" width="45%" />
+    <form method="post" style="margin:8% 15%">
 
-<h1>Login</h1>
-<br/>
-<br/>
-<form method="post">
-    <div asp-validation-summary="ModelOnly"></div>
-    <br />
-    <label asp-for="Email"></label> <input asp-for="Email" />
-    <span asp-validation-for="Email"></span><br/>
-    <br />
-    <label asp-for="Password"></label> <input asp-for="Password" />
-    <span asp-validation-for="Password"></span><br />
-    <br />
-    <input type="submit" value="Login" />
-</form>
+        <div class="col my-3">
+            <label asp-for="Email" class="form-label fw-bold fs-5"></label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-envelope"></i></span>
+                <input asp-for="Email" class="form-control rounded py-2 fs-5" aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+
+        <div class="col">
+            <label asp-for="Password" class="form-label fw-bold fs-5"></label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-lock"></i></span>
+                <input asp-for="Password" class="form-control rounded py-2 fs-5" aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+        <br />
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert" style="width:400px"></div>
+        <br />
+        <div class="text-center">
+        <input type="submit" value="Login" class="btn btn-outline-danger btn-lg text-center" style="width:300px"/>
+        </div>
+        <div class="text-center mt-2">
+            <p>Don't have an account? <a asp-area="" asp-controller="Users" asp-action="Register" class="link-danger">Register</a></p>
+        </div>
+    </form>
+</div>
+
+
 

@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Login.png",
+      "PackagePath": "staticwebassets\\images\\Login.png"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Register.png",
+      "PackagePath": "staticwebassets\\images\\Register.png"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Review.png",
+      "PackagePath": "staticwebassets\\images\\Review.png"
+    },
+    {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\js\\site2.js",
       "PackagePath": "staticwebassets\\js\\site2.js"
     },
