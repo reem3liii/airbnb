@@ -272,3 +272,4 @@ D:\iti\.GB\airbnb\airbnb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Jw
 D:\iti\.GB\airbnb\airbnb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\iti\.GB\airbnb\airbnb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\iti\.GB\airbnb\airbnb\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\iti\.GB\airbnb\airbnb\bin\Debug\net6.0\libman.json

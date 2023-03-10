@@ -5,9 +5,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace airbnb.Controllers
 {
-    //[Route("api/")]
-    //[ApiController]
-    //public class MainFeaturesController : ControllerBase
     public class MainFeaturesController : Controller
     {
         private readonly AirbnbDbContext _context;
@@ -140,7 +137,7 @@ namespace airbnb.Controllers
                     Reviews = place.Reviews,
                    Owner = place.Owner,
                 };
-                return Ok(placeDetailDTO);
+                return View(placeDetailDTO);
             }
         }
 

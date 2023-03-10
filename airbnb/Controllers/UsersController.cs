@@ -1,16 +1,16 @@
 ﻿using airbnb.DTO;
 using airbnb.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 
 namespace airbnb.Controllers
 {
-    //[Route("api/")]
-    //[ApiController]
-    //public class UsersController : ControllerBase
     public class UsersController : Controller
     {
         private readonly AirbnbDbContext _context;
@@ -20,47 +20,79 @@ namespace airbnb.Controllers
             _context = context;
         }
 
-        [HttpPost("login")]
-        public ActionResult Login(LoginDTO user)
+        public IActionResult Login()
         {
-            Customer customer = _context.Customers.Where(x => x.Email == user.Email && x.Password == user.Password).FirstOrDefault();
+            return View();
+        }
 
-            if (customer != null)
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginDTO model, string? returnurl)
+        {
+            if (!ModelState.IsValid)
             {
-                var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("airbnb_key_123456"));
+                return View(model);
+            }
 
-                var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            Customer user = _context.Customers.Where(x => x.Email == model.Email && x.Password == model.Password).FirstOrDefault();
 
-                var token = new JwtSecurityToken(
+            if (user != null)
+            {
+                ClaimsIdentity ci = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
+                ClaimsPrincipal cp = new ClaimsPrincipal();
+                cp.AddIdentity(ci);
 
-                 expires: DateTime.Now.AddMinutes(120),
-                 signingCredentials: credentials);
+                await HttpContext.SignInAsync(cp);
 
-                return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+                if (returnurl != null)
+                {
+                    return LocalRedirect(returnurl);
+                }
+
+                return RedirectToAction("Index", "Home");
             }
             else
             {
-                return Unauthorized();    
-
+                ModelState.AddModelError("", "Invalid email or password, Check your informtion again!");
+                return View(model);
             }
+           
         }
 
-        [HttpPost("register")]
-        public ActionResult Register(RegisterDTO user)
+        public async Task<IActionResult> Logout()
         {
-            var customer = new Customer() {
-                FirstName=user.FirstName, LastName =user.LastName,DOB=user.DOB, Email= user.Email, Password= user.Password };
-            _context.Customers.Add(customer);
-            _context.SaveChanges();
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+        public IActionResult Register()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterDTO model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = new Customer()
+                {
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    DOB = model.DOB,
+                    Email = model.Email,
+                    Password = model.Password
+                };
+                _context.Customers.Add(user);
+                _context.SaveChanges();
 
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("airbnb_key_123456"));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-            var token = new JwtSecurityToken(
-             expires: DateTime.Now.AddMinutes(120),
-             signingCredentials: credentials);
+                ClaimsIdentity ci = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
+                ClaimsPrincipal cp = new ClaimsPrincipal();
+                cp.AddIdentity(ci);
 
-            return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+                await HttpContext.SignInAsync(cp);
+
+                return RedirectToAction("Index", "Home");
+            }
+            return View(model);
         }
 
-        }
+    }
 }

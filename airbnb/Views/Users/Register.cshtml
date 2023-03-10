@@ -1,0 +1,32 @@
+﻿@model airbnb.DTO.RegisterDTO
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Register</h1>
+<br />
+<br />
+<form method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <br />
+    <label asp-for="FirstName"></label> <input asp-for="FirstName" />
+    <span asp-validation-for="FirstName"></span><br />
+    <br />
+    <label asp-for="LastName"></label> <input asp-for="LastName" />
+    <span asp-validation-for="LastName"></span><br />
+    <br />
+    <label asp-for="DOB"></label> <input asp-for="DOB" />
+    <span asp-validation-for="DOB"></span><br />
+    <br />
+    <label asp-for="Email"></label> <input asp-for="Email" />
+    <span asp-validation-for="Email"></span><br />
+    <br />
+    <label asp-for="Password"></label> <input asp-for="Password" />
+    <span asp-validation-for="Password"></span><br />
+    <br />
+    <label asp-for="CPassword"></label> <input asp-for="CPassword" />
+    <span asp-validation-for="CPassword"></span><br />
+    <br />
+    <input type="submit" value="Register" />
+</form>
+
