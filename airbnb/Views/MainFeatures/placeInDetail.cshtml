@@ -4,7 +4,7 @@
     ViewData["Title"] = Model.Description;
 }
 
-<div>
+
     <h3> @Model.Description </h3>
     <div class="d-flex flex-row fs-6">
         <p><i class="fa-solid fa-star"></i>  @Model.AvgRating.ToString("0.##") </p>
@@ -13,56 +13,28 @@
         <p class="mx-2">&#8226;</p>
         <p class="text-decoration-underline"> @Model.Location </p>
     </div>
-@*    <table>
-        <tr width="600px">
-            <td width="300px"> <img src="@Model.ImagesUrls[0]" style="object-fit: cover;" /></td>
-            <td width="300px">
-                <table>
-                    <tr>
-                        <td> <img src="@Model.ImagesUrls[1]" style="object-fit: cover;" /></td>
-                        <td> <img src="@Model.ImagesUrls[2]" style="object-fit: cover;" /></td>
-                    </tr>
-                    <tr>
-                        <td> <img src="@Model.ImagesUrls[3]" style="object-fit: cover;" /></td>
-                        <td> <img src="@Model.ImagesUrls[4]" style="object-fit: cover;" /></td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>*@
-@*    <div class="row container text-center" style="width:60%; height:60%">
-        <div class="col">
-            <img src="@Model.ImagesUrls[0]" class="img-fluid" />
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="@Model.ImagesUrls[1]" class="img-fluid" /></div>
-                <div class="col"><img src="@Model.ImagesUrls[2]" class="img-fluid" /></div>
-            </div>
-            <div class="row">
-                <div class="col"><img src="@Model.ImagesUrls[3]" class="img-fluid" /></div>
-                <div class="col"><img src="@Model.ImagesUrls[4]" class="img-fluid" /></div>
-            </div>
-        </div>
-    </div>*@
 
 
-    <div class="d-flex pb-3">
-        @foreach (var item in Model.ImagesUrls)
-        {
-            <img src="@item" height="300px" width="50%" class="object-fit-fill rounded" />
-        }
+    <div class="d-inline-flex flex-row ">
+        <div class="col">
+            <img src="@Model.ImagesUrls[0]" height="407px" width="540px" class="rounded m-1" />
+        </div>
+        <div class="d-inline-flex flex-column">
+            <div class="d-inline-flex flex-row">
+                <img src="@Model.ImagesUrls[1]" height="200px" width="270px" class="m-1 rounded" />
+                <img src="@Model.ImagesUrls[2]" height="200px" width="270px" class="m-1  rounded" />
+
+            </div>
+            <div class="d-inline-flex flex-row">
+                <img src="@Model.ImagesUrls[3]" height="200px" width="270px" class="m-1  rounded" />
+                <img src="@Model.ImagesUrls[4]" height="200px" width="270px" class="m-1  rounded" />
+
+            </div>
+        </div>
+
     </div>
 
-@*    <div class="d-flex row">
-        <div><img src="@Model.ImagesUrls[0]" height="200px" width="30%" class="object-fit-fill rounded" /></div>
-        <div ><img src="@Model.ImagesUrls[1]" height="200px" width="30%" class="object-fit-fill rounded" /></div>
-        <div ><img src="@Model.ImagesUrls[2]" height="200px" width="30%" class="object-fit-fill rounded" /></div>
-        <div><img src="@Model.ImagesUrls[3]" height="200px" width="30%" class="object-fit-fill rounded" /></div>
-        <div><img src="@Model.ImagesUrls[4]" height="200px" width="30%" class="object-fit-fill rounded" /></div>
-    </div>*@
-
-    <h4>@Model.Type hosted by @Model.OwnerName</h4>
+    <h4 class="mt-4">@Model.Type hosted by @Model.OwnerName</h4>
     <div class="d-flex flex-row fs-6">
         <p>@Model.BedroomNumber bedrooms </p>
         <p class="mx-2">&#8226;</p>
@@ -71,18 +43,23 @@
         <p>@Model.BathroomNumber baths </p>
     </div>
    
-</div>
 
-<div style="margin-right:40%">
-    <hr>
+
+<div class="d-inline-flex flex-row">
+
+    <div class="d-inline-flex flex-column" style="width:60%">
+
+        <hr class="my-4">
     <div>
         <img src="https://a0.muscache.com/im/pictures/54e427bb-9cb7-4a81-94cf-78f19156faad.jpg" height="30px">
         <p class="mt-3">Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.</p>
         <a href="#" class="link-dark fw-bold">Learn more</a>
     </div>
-    <hr>
+
+        <hr class="my-4">
+
     <div>
-        <h4 class="my-3">What this place offers</h4>
+        <h4>What this place offers</h4>
         <div class="container">
             <div class="row row-cols-2">
                 @foreach (var item in Model.Services)
@@ -90,17 +67,17 @@
                     <div class="col py-1">@item</div>
                 }
             </div>
-        </div>
-        
+        </div>        
     </div>
-    <hr>
+
+        <hr class="my-4">
+
     <div class="d-flex flex-row mb-3">
             <h4><i class="fa-solid fa-star"></i>  @Model.AvgRating.ToString("0.##") stars</h4>
             <h4 class="mx-2">&#8226;</h4>
             <h4> @Model.ReviewsNumber reviews </h4>
     </div>
     <div>
-
         @foreach (var item in Model.Reviews)
         {
             if(item.Comments != null)
@@ -109,10 +86,21 @@
             }
         }
     </div>
-</div>
-<hr>
+    </div>
+
+    <div class="d-flex flex-column  align-content-center" style="width:50%">
+        <img src="~/images/Sea.png" width="260px" style="margin:15px auto">
+        <img src="~/images/Review.png" width="260px" style="margin:15px auto">
+
+    </div>
+
+</div> 
+
+
+
+<hr class="my-4">
 <div>
-<h4 class="my-2">Hosted by @Model.Owner.FirstName @Model.Owner.LastName</h4>
+<h4>Hosted by @Model.Owner.FirstName @Model.Owner.LastName</h4>
 @if(Model.Owner.NID != null)
 {
     <p class="fs-6"><i class="fa-regular fa-circle-check me-1"></i> Identity verified</p>
@@ -120,11 +108,25 @@
 }
 <p>Response rate: @Model.Owner.ResponseRate%</p>
 <p>Response time: @Model.Owner.ResponseTime</p>
-<button type="button" class="btn btn-outline-dark fw-bold">Contact Host</button>
+<button type="button" class="btn btn-outline-danger fw-bold">Contact Host</button>
+
+   @* <p>
+        <a class="btn btn-outline-danger fw-bold" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Contact Host
+        </a>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            @Model.Owner.
+        </div>
+    </div>*@
+
 </div>
-<hr>
+
+
+<hr class="my-4">
 <div>
-    <h4 class="my-4">Things to know</h4>
+    <h4>Things to know</h4>
     <div class="d-flex flex-row justify-content-between">
         <div class="d-flex flex-column mx-3">
             <h6>Place rules</h6>

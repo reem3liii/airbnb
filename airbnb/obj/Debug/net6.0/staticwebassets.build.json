@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tNsSJ7G0PWmeHQ29hmKyKGlr+3kZ4DocOtkEnUEEtwU=",
+  "Hash": "6XoNc9u0lD8p1OwKHTYy47wVgiFukMhAd9i0QNpkY18=",
   "Source": "airbnb",
   "BasePath": "_content/airbnb",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\images\\Register.png"
     },
     {
+      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Relax.png",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/Relax.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Relax.png"
+    },
+    {
       "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Review.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
@@ -134,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Review.png"
+    },
+    {
+      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Sea.png",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/Sea.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Sea.png"
     },
     {
       "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\js\\site2.js",

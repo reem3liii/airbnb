@@ -21,8 +21,16 @@
       "PackagePath": "staticwebassets\\images\\Register.png"
     },
     {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Relax.png",
+      "PackagePath": "staticwebassets\\images\\Relax.png"
+    },
+    {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Review.png",
       "PackagePath": "staticwebassets\\images\\Review.png"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Sea.png",
+      "PackagePath": "staticwebassets\\images\\Sea.png"
     },
     {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\js\\site2.js",
