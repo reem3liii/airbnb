@@ -17,6 +17,7 @@ namespace airbnb.DTO
         public List<String> Services { get; set; }
         public List<Review> Reviews { get; set; } = new List<Review>();
         public Owner Owner { get; set; }
+        public List<String> OwnerPhones { get; set; }
 
 
     }

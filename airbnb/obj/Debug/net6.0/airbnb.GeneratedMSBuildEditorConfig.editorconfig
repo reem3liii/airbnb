@@ -84,8 +84,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/beachFront.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXGJlYWNoRnJvbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/desert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXGRlc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/garden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXGdhcmRlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/getAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXGdldEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/lake.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXGxha2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/mountain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXG1vdW50YWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/placeInDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXHBsYWNlSW5EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/pool.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXHBvb2wuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/trending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXHRyZW5kaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/iti/.GB/airbnb/airbnb/Views/Owners/Create.cshtml]

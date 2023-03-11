@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/airbnb.styles.css" asp-append-version="true" />
+	
+    <link href="~/css/site2.css" rel="stylesheet" />
+	<link href="~/css/site.css" rel="stylesheet" />
 
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
 
 	<link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
 	<link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -27,53 +33,56 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">airbnb</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+    @*   <header>
+        <nav class="navbar navbar-light bg-white border-bottom box-shadow mb-2 d-flex justify-content-between">
+        *@            
+        
+        <div class="d-flex flex-row justify-content-between border-bottom box-shadow p-3">
+                <a asp-controller="Home" asp-action="Index"><img src="~/images/logo.png" class="logo" /></a>
+
+                <div class="container-search">
+                    <input class="search" type="text" placeholder="Search">
+                    <button class="btn-submit"><img src="~/images/search.png"></button>
+                </div>
+
+                <div class="d-flex flex-row">
                         @if (!User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Login">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Register">Register</a>
-                            </li>
+                                <a class="btn btn-outline-danger ms-3" asp-controller="Users" asp-action="Login">Login</a>
+                                <a class="btn btn-outline-danger" asp-controller="Users" asp-action="Register">Register</a>
                         }
                         else
-                        {       
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout @User.Identity.Name</a>
-                            </li>
+                        {
+                                <a class="btn btn-outline-danger ms-3" asp-controller="Users" asp-action="Account">Account</a>
+                                <a class="btn btn-outline-danger" asp-controller="Users" asp-action="Logout">Logout</a>
                         }
-                    </ul>
                 </div>
             </div>
-        </nav>
-    </header>
+@*        </nav>
+    </header>*@
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-@*    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - airbnb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    @*<footer class="border-top footer text-muted">*@
+    <hr />
+        <div class="contain-footer">
+            <div>
+                &copy; 2023 - airbnb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+            <div>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/airbnbuk/?brand_redir=324826532457" target="_blank"><i class="fa-brands fa-facebook-f icon"></i></a></li>
+                    <li><a href="https://twitter.com/airbnb" target="_blank"><i class="fa-brands fa-twitter icon"></i></a></li>
+                <li><a href="https://www.instagram.com/airbnb/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a></li>
+                </ul>
+            </div>
         </div>
-    </footer>*@
+    @*</footer>*@
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

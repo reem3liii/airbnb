@@ -14,7 +14,6 @@ namespace airbnb.Controllers
             _context = context;
         }
 
-        [HttpGet("getAll")]
         public ActionResult getAll()
         {
             List<Place> places = _context.Places.Include(p=> p.Reviews).ToList();
@@ -33,6 +32,7 @@ namespace airbnb.Controllers
                     List<string> imgUrls = _context.Place_Image.Where(x=> x.PlaceId == p.PlaceId).Select(x=> x.ImageName).ToList();
                     placesDTO.Add(new PlaceDTO()
                     {
+                      PlaceId=p.PlaceId,
                       Location=p.Location,
                       Type=p.Type,
                       DailyPrice=p.DailyPrice,
@@ -42,12 +42,263 @@ namespace airbnb.Controllers
                     }
                     );
                 }
-                return Ok(placesDTO);
+                return View(placesDTO);
             }
         }
 
-        [HttpGet("filter")]
-        public ActionResult getByFilter(int maxPrice, int minPrice,int bedNum, int bedRoomNum, int bathRoomNum, string type)
+        public ActionResult trending()
+        {
+            List<Place> places = _context.Places.Include(p => p.Reviews).ToList();
+            if (places.Count == 0)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                foreach (Place p in places)
+                {
+                    double avgRate = p.Reviews.Average(p => p.Ratings);
+                    List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
+                    if (avgRate >= 4)
+                    {
+                        placesDTO.Add(new PlaceDTO()
+                        {
+                            PlaceId=p.PlaceId,
+                            Location = p.Location,
+                            Type = p.Type,
+                            DailyPrice = p.DailyPrice,
+                            AvgRating = avgRate,
+                            ImagesUrls = imgUrls
+
+                        });
+                    }                              
+                }
+                return View(placesDTO);
+            }
+        }
+        public ActionResult pool()
+        {
+            List<Place> places = _context.Places.Include(p => p.Reviews).ToList();
+            if (places.Count == 0)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                foreach (Place p in places)
+                {
+                    double avgRate = p.Reviews.Average(p => p.Ratings);
+                    List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
+                    List<string> services = _context.Place_Service.Where(x => x.PlaceId == p.PlaceId).Select(x => x.Service).ToList();
+
+                    foreach(string service in services)  
+                    {
+                        if(service.Contains("pool") || service.Contains("Pool"))
+                        {
+                            placesDTO.Add(new PlaceDTO()
+                            {
+                                PlaceId=p.PlaceId,
+                                Location = p.Location,
+                                Type = p.Type,
+                                DailyPrice = p.DailyPrice,
+                                AvgRating = avgRate,
+                                ImagesUrls = imgUrls
+
+                            });
+                        }             
+                    }
+                }
+                return View(placesDTO);
+            }
+        }
+
+        public ActionResult beachFront()
+        {
+            List<Place> places = _context.Places.Include(p => p.Reviews).ToList();
+            if (places.Count == 0)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                foreach (Place p in places)
+                {
+                    double avgRate = p.Reviews.Average(p => p.Ratings);
+                    List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
+                    List<string> services = _context.Place_Service.Where(x => x.PlaceId == p.PlaceId).Select(x => x.Service).ToList();
+
+                    foreach (string service in services)
+                    {
+                        if (service.Contains("Beach") || service.Contains("Sea"))
+                        {
+                            placesDTO.Add(new PlaceDTO()
+                            {
+                                PlaceId = p.PlaceId,
+                                Location = p.Location,
+                                Type = p.Type,
+                                DailyPrice = p.DailyPrice,
+                                AvgRating = avgRate,
+                                ImagesUrls = imgUrls
+
+                            });
+                        }
+                    }
+                }
+                return View(placesDTO);
+            }
+        }
+
+        public ActionResult desert()
+        {
+            List<Place> places = _context.Places.Include(p => p.Reviews).ToList();
+            if (places.Count == 0)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                foreach (Place p in places)
+                {
+                    double avgRate = p.Reviews.Average(p => p.Ratings);
+                    List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
+                    List<string> services = _context.Place_Service.Where(x => x.PlaceId == p.PlaceId).Select(x => x.Service).ToList();
+
+                    foreach (string service in services)
+                    {
+                        if (service.Contains("Desert"))
+                        {
+                            placesDTO.Add(new PlaceDTO()
+                            {
+                                PlaceId = p.PlaceId,
+                                Location = p.Location,
+                                Type = p.Type,
+                                DailyPrice = p.DailyPrice,
+                                AvgRating = avgRate,
+                                ImagesUrls = imgUrls
+
+                            });
+                        }
+                    }
+                }
+                return View(placesDTO);
+            }
+        }
+        public ActionResult garden()
+        {
+            List<Place> places = _context.Places.Include(p => p.Reviews).ToList();
+            if (places.Count == 0)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                foreach (Place p in places)
+                {
+                    double avgRate = p.Reviews.Average(p => p.Ratings);
+                    List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
+                    List<string> services = _context.Place_Service.Where(x => x.PlaceId == p.PlaceId).Select(x => x.Service).ToList();
+
+                    foreach (string service in services)
+                    {
+                        if (service.Contains("Garden"))
+                        {
+                            placesDTO.Add(new PlaceDTO()
+                            {
+                                PlaceId = p.PlaceId,
+                                Location = p.Location,
+                                Type = p.Type,
+                                DailyPrice = p.DailyPrice,
+                                AvgRating = avgRate,
+                                ImagesUrls = imgUrls
+
+                            });
+                        }
+                    }
+                }
+                return View(placesDTO);
+            }
+        }
+
+        public ActionResult lake()
+        {
+            List<Place> places = _context.Places.Include(p => p.Reviews).ToList();
+            if (places.Count == 0)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                foreach (Place p in places)
+                {
+                    double avgRate = p.Reviews.Average(p => p.Ratings);
+                    List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
+                    List<string> services = _context.Place_Service.Where(x => x.PlaceId == p.PlaceId).Select(x => x.Service).ToList();
+
+                    foreach (string service in services)
+                    {
+                        if (service.Contains("Lake"))
+                        {
+                            placesDTO.Add(new PlaceDTO()
+                            {
+                                PlaceId = p.PlaceId,
+                                Location = p.Location,
+                                Type = p.Type,
+                                DailyPrice = p.DailyPrice,
+                                AvgRating = avgRate,
+                                ImagesUrls = imgUrls
+
+                            });
+                        }
+                    }
+                }
+                return View(placesDTO);
+            }
+        }
+
+        public ActionResult mountain()
+        {
+            List<Place> places = _context.Places.Include(p => p.Reviews).ToList();
+            if (places.Count == 0)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                foreach (Place p in places)
+                {
+                    double avgRate = p.Reviews.Average(p => p.Ratings);
+                    List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
+                    List<string> services = _context.Place_Service.Where(x => x.PlaceId == p.PlaceId).Select(x => x.Service).ToList();
+
+                    foreach (string service in services)
+                    {
+                        if (service.Contains("Mountain"))
+                        {
+                            placesDTO.Add(new PlaceDTO()
+                            {
+                                PlaceId = p.PlaceId,
+                                Location = p.Location,
+                                Type = p.Type,
+                                DailyPrice = p.DailyPrice,
+                                AvgRating = avgRate,
+                                ImagesUrls = imgUrls
+
+                            });
+                        }
+                    }
+                }
+                return View(placesDTO);
+            }
+        }
+
+        public ActionResult filter(int maxPrice, int minPrice,int bedNum, int bedRoomNum, int bathRoomNum, string type)
         {
             List<Place> places = _context.Places.Include(p => p.Reviews).
             Where(x=> x.DailyPrice>= minPrice && x.DailyPrice <= maxPrice && x.BedNumber == bedNum && x.BedroomNumber == bedRoomNum && x.BathroomNumber == bathRoomNum && x.Type == type).ToList();
@@ -77,8 +328,7 @@ namespace airbnb.Controllers
             }
         }
 
-        [HttpGet("search")]
-        public ActionResult getBySearch(string location)
+        public ActionResult search(string location)
         {
             List<Place> places = _context.Places.Include(p => p.Reviews).Where(x => x.Location.Contains(location)).ToList();
             if (places.Count == 0)
@@ -120,7 +370,8 @@ namespace airbnb.Controllers
             {        
                 List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == place.PlaceId).Select(x => x.ImageName).ToList();
                 List<string> services = _context.Place_Service.Where(x => x.PlaceId == place.PlaceId).Select(x => x.Service).ToList();
-
+                List<string> phones = _context.Owner_Phone.Where(x => x.OwnerId == place.Owner.OwnerId).Select(x => x.PhoneNumber).ToList();
+                
                 PlaceDetailsDTO placeDetailDTO = new PlaceDetailsDTO()
                 {
                     Description = place.Description,
@@ -136,12 +387,12 @@ namespace airbnb.Controllers
                     Services = services,
                     Reviews = place.Reviews,
                    Owner = place.Owner,
+                   OwnerPhones= phones,
                 };
                 return View(placeDetailDTO);
             }
         }
 
-        [HttpGet("reserve")]
         public ActionResult reserve(int id, int duration = 5, int guestsNumber = 1)
         {
             Place place = _context.Places.FirstOrDefault(p => p.PlaceId == id);

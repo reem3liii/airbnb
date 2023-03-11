@@ -44,7 +44,7 @@ namespace airbnb
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=MainFeatures}/{action=getAll}/{id?}");
 
             app.Run();
         }

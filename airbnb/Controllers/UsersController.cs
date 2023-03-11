@@ -67,6 +67,7 @@ namespace airbnb.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> Register(RegisterDTO model)
         {

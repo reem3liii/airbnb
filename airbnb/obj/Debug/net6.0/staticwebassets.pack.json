@@ -5,12 +5,44 @@
       "PackagePath": "staticwebassets\\airbnb.bundle.scp.css"
     },
     {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\css\\site2.css",
       "PackagePath": "staticwebassets\\css\\site2.css"
     },
     {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\All.jpg",
+      "PackagePath": "staticwebassets\\images\\All.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Amazing pools.jpg",
+      "PackagePath": "staticwebassets\\images\\Amazing pools.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Amazing views.jpg",
+      "PackagePath": "staticwebassets\\images\\Amazing views.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Beach.jpg",
+      "PackagePath": "staticwebassets\\images\\Beach.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Beachfront.jpg",
+      "PackagePath": "staticwebassets\\images\\Beachfront.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Desert.jpg",
+      "PackagePath": "staticwebassets\\images\\Desert.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Iconic cities.jpg",
+      "PackagePath": "staticwebassets\\images\\Iconic cities.jpg"
     },
     {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Login.png",
@@ -31,6 +63,34 @@
     {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Sea.png",
       "PackagePath": "staticwebassets\\images\\Sea.png"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Tiny homes.jpg",
+      "PackagePath": "staticwebassets\\images\\Tiny homes.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Trending.jpg",
+      "PackagePath": "staticwebassets\\images\\Trending.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\garden.jpg",
+      "PackagePath": "staticwebassets\\images\\garden.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\lake.jpg",
+      "PackagePath": "staticwebassets\\images\\lake.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\mountain.jpg",
+      "PackagePath": "staticwebassets\\images\\mountain.jpg"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\search.png",
+      "PackagePath": "staticwebassets\\images\\search.png"
     },
     {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\js\\site2.js",
