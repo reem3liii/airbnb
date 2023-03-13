@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Filters";
+}
+<nav class="navbar navbar-expand-lg bg-body-tertiary box-shadow m-0">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-center">
+                <a class="nav-link active link" asp-controller="MainFeatures" asp-action="getAll"><img src="~/images/All.jpg" class="img-icon" /><br /><span>All Places</span></a>
+                <a class="nav-link link" asp-controller="MainFeatures" asp-action="trending"><img src="~/images/Trending.jpg" height="40px" class="img-icon" /><br /><span>Trending</span></a>
+                <a class="nav-link link" asp-controller="MainFeatures" asp-action="beachFront"><img src="~/images/Beachfront.jpg" height="40px" class="img-icon" /><br /><span>Beachfront</span></a>
+                <a class="nav-link link" asp-controller="MainFeatures" asp-action="pool"><img src="~/images/Amazing pools.jpg" height="40px" class="img-icon" /><br /><span>Amazing pools</span></a>
+                <a class="nav-link link" asp-controller="MainFeatures" asp-action="desert"><img src="~/images/Desert.jpg" height="40px" class="img-icon" /><br /><span>Desert View</span></a>
+                <a class="nav-link link" asp-controller="MainFeatures" asp-action="lake"><img src="~/images/lake.jpg" height="40px" class="img-icon" /><br /><span>Lake View</span></a>
+                <a class="nav-link link" asp-controller="MainFeatures" asp-action="garden"><img src="~/images/garden.jpg" height="40px" class="img-icon" /><br /><span>Garden View</span></a>
+                <a class="nav-link link" asp-controller="MainFeatures" asp-action="mountain"><img src="~/images/mountain.jpg" height="40px" class="img-icon" /><br /><span>Mountain</span></a>
+            </div>
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-4" id="exampleModalToggleLabel">Filters</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Show a second modal and hide this one with the button below.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn-filter" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="fa-solid fa-filter icon-filter"></i>Filters</a>
+        </div>
+    </div>
+</nav>
+
+<div class="placeList">
+    @foreach (var item in Model)
+    {
+        <a class="btn" asp-action="placeInDetail" asp-route-id="@item.PlaceId">
+            <div class="slider-frame">
+                <div class="slide-images">
+                    <div class="img-container">
+                        <img src="@item.ImagesUrls[0]" class="img">
+                    </div>
+                    <div class="img-container">
+                        <img src="@item.ImagesUrls[1]" class="img">
+                    </div>
+                    <div class="img-container">
+                        <img src="@item.ImagesUrls[2]" class="img">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mt-2">@item.Location</div>
+
+            <div class="d-flex TypeAndRating mt-2">
+                <p>@item.Type</p>
+                <p class="PRating"><i class="fa-solid fa-star"></i> @item.AvgRating.ToString("0.##")</p>
+            </div>
+
+            <div class="d-flex">@item.DailyPrice EGP night</div>
+        </a>
+    }
+</div>

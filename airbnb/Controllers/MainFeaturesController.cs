@@ -297,7 +297,7 @@ namespace airbnb.Controllers
                 return View(placesDTO);
             }
         }
-
+        [HttpGet("filter")]
         public ActionResult filter(int maxPrice, int minPrice,int bedNum, int bedRoomNum, int bathRoomNum, string type)
         {
             List<Place> places = _context.Places.Include(p => p.Reviews).
@@ -324,10 +324,10 @@ namespace airbnb.Controllers
                     }
                     );
                 }
-                return Ok(placesDTO);
+                return View(placesDTO);
             }
         }
-
+        [HttpPost("search")]
         public ActionResult search(string location)
         {
             List<Place> places = _context.Places.Include(p => p.Reviews).Where(x => x.Location.Contains(location)).ToList();
@@ -344,6 +344,7 @@ namespace airbnb.Controllers
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
                     placesDTO.Add(new PlaceDTO()
                     {
+                        PlaceId = p.PlaceId,
                         Location = p.Location,
                         Type = p.Type,
                         DailyPrice = p.DailyPrice,
@@ -353,7 +354,7 @@ namespace airbnb.Controllers
                     }
                     );
                 }
-                return Ok(placesDTO);
+                return View(placesDTO);
             }
         }
 

@@ -15,7 +15,7 @@
                 <a class="nav-link link" asp-controller="MainFeatures" asp-action="garden"><img src="~/images/garden.jpg" height="40px" class="img-icon" /><br /><span>Garden View</span></a>
                 <a class="nav-link link" asp-controller="MainFeatures" asp-action="mountain"><img src="~/images/mountain.jpg" height="40px" class="img-icon" /><br /><span>Mountain</span></a>
             </div>
-            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            @*<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -29,6 +29,86 @@
                 </div>
             </div>
             <a class="btn-filter" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="fa-solid fa-filter icon-filter"></i>Filters</a>
+            *@
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa-solid fa-filter icon-filter"></i>Filters
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Filters</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body modal-dialog-scrollable">
+                            <div>
+                                <h5>Price range</h5>
+                                <div>
+                                    <input type="text" />
+                                    <input type="text" />
+                                </div>
+                            </div>
+                            <hr />
+                            <div>
+                                <h5>Rooms and beds</h5>
+                                <div>
+                                    <p>Bedrooms</p>
+                                    <div>
+                                        <button>Any</button>
+                                        <button>1</button>
+                                        <button>2</button>
+                                        <button>3</button>
+                                        <button>4</button>
+                                        <button>5</button>
+                                        <button>6</button>
+                                        <button>7</button>
+                                        <button>8</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Beds</p>
+                                    <div>
+                                        <button>Any</button>
+                                        <button>1</button>
+                                        <button>2</button>
+                                        <button>3</button>
+                                        <button>4</button>
+                                        <button>5</button>
+                                        <button>6</button>
+                                        <button>7</button>
+                                        <button>8</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Bathrooms</p>
+                                    <div>
+                                        <button>Any</button>
+                                        <button>1</button>
+                                        <button>2</button>
+                                        <button>3</button>
+                                        <button>4</button>
+                                        <button>5</button>
+                                        <button>6</button>
+                                        <button>7</button>
+                                        <button>8</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div>
+                                <h5>Property type</h5>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </nav>
