@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\images\\Amazing views.jpg"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Apartment.jpg",
+      "PackagePath": "staticwebassets\\images\\Apartment.jpg"
+    },
+    {
       "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Beach.jpg",
       "PackagePath": "staticwebassets\\images\\Beach.jpg"
     },
@@ -37,8 +41,20 @@
       "PackagePath": "staticwebassets\\images\\Beachfront.jpg"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Chalet.png",
+      "PackagePath": "staticwebassets\\images\\Chalet.png"
+    },
+    {
       "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Desert.jpg",
       "PackagePath": "staticwebassets\\images\\Desert.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Hotel.jpg",
+      "PackagePath": "staticwebassets\\images\\Hotel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\House.jpg",
+      "PackagePath": "staticwebassets\\images\\House.jpg"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Iconic cities.jpg",
@@ -71,6 +87,14 @@
     {
       "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Trending.jpg",
       "PackagePath": "staticwebassets\\images\\Trending.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Vacation home.png",
+      "PackagePath": "staticwebassets\\images\\Vacation home.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\Villa.png",
+      "PackagePath": "staticwebassets\\images\\Villa.png"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\ASp.Net MVC Project\\airbnb\\airbnb\\wwwroot\\images\\airbnb-privacy.jpeg",

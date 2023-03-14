@@ -255,3 +255,35 @@ html {
     font-size: 18px;
 }
 /*Filter*/
+.btn-filter,
+.btn-filter:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #e8e8e8;
+}
+#close{
+    margin-left: 370px;
+}
+.input-max,
+.input-min {
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.bedRoomNum,
+.bedNum,
+.bathRoomNum,
+.type{
+    font-size: 18px;
+    margin-right: 25px;
+}
+#filter {
+    background: #ff5361;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width:80px;
+    padding: 10px;
+    margin-left: 360px;
+}

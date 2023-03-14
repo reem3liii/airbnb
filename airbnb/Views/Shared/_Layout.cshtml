@@ -38,32 +38,29 @@
         *@            
         
         <div class="d-flex flex-row justify-content-between border-bottom box-shadow p-3">
-                <a asp-controller="Home" asp-action="Index" ><img src="~/images/logo.png" class="logo" /></a>
-                    @*<input type="text" class="search" placeholder="Search" id="search">
-                    <a class="btn-submit" asp-controller="MainFeatures" asp-action="search" id="btn-search" onclick="getSearch()"><img src="~/images/search.png"></a>*@
-                    @using (Html.BeginForm("search", "MainFeatures", FormMethod.Post))
-                    {
-                        <div class="container-search">
-                            <input type="text" class="search" placeholder="Search" name="location">
-                            <button type="submit" class="btn-submit"><img src="~/images/search.png"></button>
-                        </div>
-                    }
-                    
-                
-
-                <div class="d-flex flex-row">
-                        @if (!User.Identity.IsAuthenticated)
-                        {
-                                <a class="btn btn-outline-danger ms-3" asp-controller="Users" asp-action="Login">Login</a>
-                                <a class="btn btn-outline-danger" asp-controller="Users" asp-action="Register">Register</a>
-                        }
-                        else
-                        {
-                                <a class="btn btn-outline-danger ms-3" asp-controller="Users" asp-action="Account">Account</a>
-                                <a class="btn btn-outline-danger" asp-controller="Users" asp-action="Logout">Logout</a>
-                        }
+            <a asp-controller="Home" asp-action="Index"><img src="~/images/logo.png" class="logo" /></a>
+            @*<input type="text" class="search" placeholder="Search" id="search">
+             <a class="btn-submit" asp-controller="MainFeatures" asp-action="search" id="btn-search" onclick="getSearch()"><img src="~/images/search.png"></a>*@
+            @using (Html.BeginForm("search", "MainFeatures", FormMethod.Post))
+            {
+                <div class="container-search">
+                    <input type="text" class="search" placeholder="Search" name="location">
+                    <button type="submit" class="btn-submit"><img src="~/images/search.png"></button>
                 </div>
+            }
+            <div class="d-flex flex-row">
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <a class="btn btn-outline-danger ms-3" asp-controller="Users" asp-action="Login">Login</a>
+                    <a class="btn btn-outline-danger" asp-controller="Users" asp-action="Register">Register</a>
+                }
+                else
+                {
+                    <a class="btn btn-outline-danger ms-3" asp-controller="Users" asp-action="Account">Account</a>
+                    <a class="btn btn-outline-danger" asp-controller="Users" asp-action="Logout">Logout</a>
+                }
             </div>
+        </div>
 @*        </nav>
     </header>*@
 
@@ -93,7 +90,5 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
-    
-    
 </body>
 </html>
