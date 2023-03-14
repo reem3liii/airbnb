@@ -360,7 +360,7 @@ namespace airbnb.Controllers
             }
         }
 
-        [HttpGet("placeInDetail")]
+        /*[HttpGet("placeInDetail")]
         public ActionResult placeInDetail(int id)
         {
             Place place = _context.Places.Include(p => p.Reviews).Include(p=> p.Owner).FirstOrDefault(p=> p.PlaceId== id);
@@ -394,9 +394,54 @@ namespace airbnb.Controllers
                 };
                 return View(placeDetailDTO);
             }
+        }*/
+        [HttpGet("placeInDetail")]
+        public ActionResult placeInDetail(int id)
+        {
+            Place place = _context.Places.Include(p => p.Reviews).Include(p => p.Owner).FirstOrDefault(p => p.PlaceId == id);
+
+            if (place == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == place.PlaceId).Select(x => x.ImageName).ToList();
+                List<string> services = _context.Place_Service.Where(x => x.PlaceId == place.PlaceId).Select(x => x.Service).ToList();
+                List<string> phones = _context.Owner_Phone.Where(x => x.OwnerId == place.Owner.OwnerId).Select(x => x.PhoneNumber).ToList();
+
+                PlaceDetailsDTO placeDetailDTO = new PlaceDetailsDTO()
+                {
+                    PlaceId = place.PlaceId,
+                    Description = place.Description,
+                    Location = place.Location,
+                    AvgRating = place.Reviews.Average(p => p.Ratings),
+                    ReviewsNumber = place.Reviews.Count(),
+                    ImagesUrls = imgUrls,
+                    Type = place.Type,
+                    OwnerName = place.Owner.FirstName,
+                    BedroomNumber = place.BedroomNumber,
+                    BedNumber = place.BedNumber,
+                    BathroomNumber = place.BathroomNumber,
+                    Services = services,
+                    Reviews = place.Reviews,
+                    Owner = place.Owner,
+                    OwnerPhones = phones,
+                    Reserve = new ReserveDTO()
+                    {
+                        DailyPrice = place.DailyPrice,
+                        StartDate = DateTime.Now,
+                        EndDate = DateTime.Now.AddDays(5),
+                        GuestsNumber = 1,
+                        ServicesPrice = _context.Place_Service.Where(x => x.PlaceId == id).Sum(x => x.Price),
+
+                    }
+                };
+                return View(placeDetailDTO);
+            }
         }
 
-        public ActionResult reserve(int id, int duration = 5, int guestsNumber = 1)
+        /*public ActionResult reserve(int id, int duration = 5, int guestsNumber = 1)
         {
             Place place = _context.Places.FirstOrDefault(p => p.PlaceId == id);
             int servicePrice = _context.Place_Service.Where(x => x.PlaceId == place.PlaceId).Sum(x => x.Price);
@@ -411,6 +456,22 @@ namespace airbnb.Controllers
                 Duration= duration,
             };
             return Ok(reserveDTO);
+        }*/
+        [HttpPost]
+        public ActionResult reserve(int dailyPrice, DateTime startDate, DateTime endDate, int guests, int services)
+        {
+            ReserveDTO reserveDTO = new ReserveDTO()
+            {
+                DailyPrice = dailyPrice,
+                StartDate = startDate,
+                EndDate = endDate,
+                GuestsNumber = guests,
+                ServicesPrice = services,
+                Duration = (endDate - startDate).Days,
+                DailypriceInDuration = dailyPrice * (endDate - startDate).Days,
+                TotalPrice = dailyPrice * (endDate - startDate).Days + services,
+            };
+            return View(reserveDTO);
         }
 
     }

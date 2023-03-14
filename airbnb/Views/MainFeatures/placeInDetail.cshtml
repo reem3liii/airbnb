@@ -5,44 +5,71 @@
 }
 
 
-    <h3 class="pt-4"> @Model.Description </h3>
-    <div class="d-flex flex-row fs-6">
-        <p><i class="fa-solid fa-star"></i>  @Model.AvgRating.ToString("0.##") </p>
-        <p class="mx-2">&#8226;</p>
-        <p class="text-decoration-underline"> @Model.ReviewsNumber reviews </p>
-        <p class="mx-2">&#8226;</p>
-        <p class="text-decoration-underline"> @Model.Location </p>
+<h3 class="pt-4"> @Model.Description </h3>
+<div class="d-flex flex-row fs-6">
+    <p><i class="fa-solid fa-star"></i>  @Model.AvgRating.ToString("0.##") </p>
+    <p class="mx-2">&#8226;</p>
+    <p class="text-decoration-underline"> @Model.ReviewsNumber reviews </p>
+    <p class="mx-2">&#8226;</p>
+    <p class="text-decoration-underline"> @Model.Location </p>
+</div>
+
+
+<div class="d-inline-flex flex-row">
+    <div class="col">
+        <img src="@Model.ImagesUrls[0]" height="407px" width="540px" class="rounded m-1" />
     </div>
+    <div class="d-inline-flex flex-column">
+        <div class="d-inline-flex flex-row">
+            <img src="@Model.ImagesUrls[1]" height="200px" width="270px" class="m-1 rounded" />
+            <img src="@Model.ImagesUrls[2]" height="200px" width="270px" class="m-1  rounded" />
 
-
-    <div class="d-inline-flex flex-row ">
-        <div class="col">
-            <img src="@Model.ImagesUrls[0]" height="407px" width="540px" class="rounded m-1" />
         </div>
-        <div class="d-inline-flex flex-column">
-            <div class="d-inline-flex flex-row">
-                <img src="@Model.ImagesUrls[1]" height="200px" width="270px" class="m-1 rounded" />
-                <img src="@Model.ImagesUrls[2]" height="200px" width="270px" class="m-1  rounded" />
+        <div class="d-inline-flex flex-row">
+            <img src="@Model.ImagesUrls[3]" height="200px" width="270px" class="m-1  rounded" />
+            <img src="@Model.ImagesUrls[4]" height="200px" width="270px" class="m-1  rounded" />
 
-            </div>
-            <div class="d-inline-flex flex-row">
-                <img src="@Model.ImagesUrls[3]" height="200px" width="270px" class="m-1  rounded" />
-                <img src="@Model.ImagesUrls[4]" height="200px" width="270px" class="m-1  rounded" />
+        </div>
+    </div>
 
+</div>
+
+
+<div class="d-flex flex-row justify-content-between">
+    <div class="d-flex flex-column">
+        <h4 class="mt-4">@Model.Type hosted by @Model.OwnerName</h4>
+        <div class="d-flex flex-row fs-6">
+            <p>@Model.BedroomNumber bedrooms </p>
+            <p class="mx-2">&#8226;</p>
+            <p> @Model.BedNumber beds </p>
+            <p class="mx-2">&#8226;</p>
+            <p>@Model.BathroomNumber baths </p>
+        </div>
+    </div>
+    <div class="d-flex flex-column">
+        <button type="button" class="btn btn-outline-danger fw-bold m-3" data-bs-toggle="modal" data-bs-target="#img-grid">
+            Show all photos
+        </button>
+
+        <div class="modal fade w-100" id="img-grid" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        @foreach (var item in Model.ImagesUrls)
+                        {
+                            <img src="@item" width="100%" />
+                        }
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 
-    <h4 class="mt-4">@Model.Type hosted by @Model.OwnerName</h4>
-    <div class="d-flex flex-row fs-6">
-        <p>@Model.BedroomNumber bedrooms </p>
-        <p class="mx-2">&#8226;</p>
-        <p> @Model.BedNumber beds </p>
-        <p class="mx-2">&#8226;</p>
-        <p>@Model.BathroomNumber baths </p>
-    </div>
-   
+</div>
+
 
 
 <div class="d-inline-flex flex-row">
@@ -50,77 +77,161 @@
     <div class="d-inline-flex flex-column" style="width:60%">
 
         <hr class="my-4">
-    <div>
-        <img src="https://a0.muscache.com/im/pictures/54e427bb-9cb7-4a81-94cf-78f19156faad.jpg" height="30px">
-        <p class="mt-3">Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.</p>
-        <a href="#" class="link-dark fw-bold">Learn more</a>
-    </div>
+        <div>
+            <img src="https://a0.muscache.com/im/pictures/54e427bb-9cb7-4a81-94cf-78f19156faad.jpg" height="30px">
+            <p class="mt-3">Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.</p>
+            <a class="link-dark fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn more</a>
 
-        <hr class="my-4">
 
-    <div>
-        <h4>What this place offers</h4>
-        <div class="container">
-            <div class="row row-cols-2">
-                @foreach (var item in Model.Services)
-                {
-                    <div class="col py-1">@item</div>
-                }
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://a0.muscache.com/im/pictures/54e427bb-9cb7-4a81-94cf-78f19156faad.jpg" height="30px">
+                            <p class="py-2">AirCover is comprehensive protection included for free with every booking.</p>
+                            <hr />
+                            <div class="d-flex flex-column">
+
+                                <h5>Booking Protection Guarantee</h5>
+                                <p>
+                                    In the unlikely event a Host needs to cancel your booking within 30 days of check-in, we’ll find you a similar or better home, or we’ll refund you.
+                                </p>
+                                <h5>Check-In Guarantee</h5>
+                                <p>
+                                    If you can’t check into your home and the Host cannot resolve the issue, we’ll find you a similar or better home for the length of your original stay, or we’ll refund you.
+                                </p>
+
+                                <h5>Get-What-You-Booked Guarantee</h5>
+                                <p>
+                                    If at any time during your stay you find your listing isn't as advertised—for example, the refrigerator stops working and your Host can’t easily fix it, or it has fewer bedrooms than listed—you'll have three days to report it and we’ll find you a similar or better home, or we’ll refund you.
+                                </p>
+
+                                <h5>24-hour Safety Line</h5>
+                                <p>
+                                    If you ever feel unsafe, you’ll get priority access to specially-trained safety agents, day or night.
+                                </p>
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>        
-    </div>
+        </div>
 
         <hr class="my-4">
 
-    <div class="d-flex flex-row mb-3">
+        <div>
+            <h4>What this place offers</h4>
+            <div class="container">
+                <div class="row row-cols-2">
+                    @foreach (var item in Model.Services)
+                    {
+                        <div class="col py-1">@item</div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="d-flex flex-row mb-3">
             <h4><i class="fa-solid fa-star"></i>  @Model.AvgRating.ToString("0.##") stars</h4>
             <h4 class="mx-2">&#8226;</h4>
             <h4> @Model.ReviewsNumber reviews </h4>
-    </div>
-    <div>
-        @foreach (var item in Model.Reviews)
-        {
-            if(item.Comments != null)
+        </div>
+        <div>
+            @foreach (var item in Model.Reviews)
             {
-                <p><i class="fa-solid fa-comment-dots me-3"></i>@item.Comments </p>
+                if (item.Comments != null)
+                {
+                    <p><i class="fa-solid fa-comment-dots me-3"></i>@item.Comments </p>
+                }
             }
+        </div>
+    </div>
+
+    <div class="d-flex flex-column  justify-content-center border shadow rounded-4" style="width:50%; margin:5% 0% 5% 10%;">
+        @using (Html.BeginForm("reserve", "MainFeatures", FormMethod.Post))
+        {
+            <div class="m-4">
+                <h4 class="my-2">@Model.Reserve.DailyPrice EGP per night</h4>
+                <input name="dailyPrice" asp-for="Reserve.DailyPrice" hidden>
+                <div class="d-flex flex-column my-3">
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column w-100 m-1">
+                            <label asp-for="Reserve.StartDate" class="m-1">CHECK-IN</label>
+                            <input name="startDate" asp-for="Reserve.StartDate" class="form-control">
+                        </div>
+                        <div class="d-flex flex-column w-100 m-1">
+                            <label asp-for="Reserve.EndDate" class="m-1">CHECKOUT</label>
+                            <input name="endDate" asp-for="Reserve.EndDate" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row m-1">
+                        <label asp-for="Reserve.GuestsNumber" class="mx-1">GUESTS</label>
+                    </div>
+                    <div class="d-flex flex-row m-1">
+                        <input name="guests" asp-for="Reserve.GuestsNumber" class="form-control mx-1" />
+                    </div>
+                    <div class="d-flex flex-row justify-content-between m-2">
+                        <label asp-for="Reserve.ServicesPrice" class="m-1">Services fee</label>
+                        <p class="fw-bold">@Model.Reserve.ServicesPrice EGP</p>
+                        <input name="services" asp-for="Reserve.DailyPrice" hidden>
+                    </div>
+                    <button type="submit" class="btn btn-danger m-1" style="width:100%">Reserve</button>
+
+                </div>
+
+            </div>
         }
-    </div>
-    </div>
-
-    <div class="d-flex flex-column  align-content-center" style="width:50%">
-        <img src="~/images/Sea.png" width="260px" style="margin:15px auto">
-        <img src="~/images/Review.png" width="260px" style="margin:15px auto">
 
     </div>
 
-</div> 
-
+</div>
 
 
 <hr class="my-4">
+
 <div>
-<h4>Hosted by @Model.Owner.FirstName @Model.Owner.LastName</h4>
-@if(Model.Owner.NID != null)
-{
-    <p class="fs-6"><i class="fa-regular fa-circle-check me-1"></i> Identity verified</p>
+    <h4>Hosted by @Model.Owner.FirstName @Model.Owner.LastName</h4>
+    @if (Model.Owner.NID != null)
+    {
+        <p class="fs-6"><i class="fa-regular fa-circle-check me-1"></i> Identity verified</p>
 
-}
-<p>Response rate: @Model.Owner.ResponseRate%</p>
-<p>Response time: @Model.Owner.ResponseTime</p>
-<button type="button" class="btn btn-outline-danger fw-bold">Contact Host</button>
+    }
+    <p>Response rate: @Model.Owner.ResponseRate%</p>
+    <p>Response time: @Model.Owner.ResponseTime</p>
 
-   @* <p>
-        <a class="btn btn-outline-danger fw-bold" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Contact Host
-        </a>
-    </p>
-    <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-            @Model.Owner.
+    <button type="button" class="btn btn-outline-danger fw-bold" data-bs-toggle="modal" data-bs-target="#contact">
+        Contact Host
+    </button>
+
+    <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="contactModalLabel">Host contact information</h1>
+                </div>
+                <div class="modal-body">
+                    <h5>Phone numbers:</h5>
+                    @foreach (var item in Model.OwnerPhones)
+                    {
+                        <li> @item </li>
+                    }
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-    </div>*@
-
+    </div>
 
 </div>
 
@@ -152,4 +263,3 @@
         </div>
     </div>
 </div>
-

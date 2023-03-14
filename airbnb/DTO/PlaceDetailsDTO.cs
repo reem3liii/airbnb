@@ -4,6 +4,8 @@ namespace airbnb.DTO
 {
     public class PlaceDetailsDTO
     {
+        public int PlaceId { get; set; }
+        public ReserveDTO Reserve { get; set; }
         public string Description { get; set; }
         public string Location { get; set; }
         public double AvgRating { get; set; }

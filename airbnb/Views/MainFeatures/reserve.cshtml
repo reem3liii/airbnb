@@ -1,0 +1,49 @@
+﻿@model airbnb.DTO.ReserveDTO
+
+<p>In reserve </p>
+
+@*<div class="d-flex flex-row">
+    <img src="~/images/Select.png" width="45%" />
+    <form method="post" style="margin:5% 15%">
+        <h4>@Model.DailyPrice per night</h4>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column">
+                    <label asp-for="StartDate">CHECK-IN</label>
+                    <input asp-for="StartDate" class="form-control">
+                </div>
+                <div class="d-flex flex-column">
+                    <label asp-for="EndDate">CHECKOUT</label>
+                    <input asp-for="EndDate" class="form-control">
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <label asp-for="GuestsNumber">GUESTS</label>
+            </div>
+            <div class="d-flex flex-row">
+                <input asp-for="GuestsNumber" class="form-control" />
+            </div>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-content-between">
+                <p>@Model.DailyPrice × @Model.Duration </p>
+                <p>@Model.DailypriceInDuration</p>
+            </div>
+            <div class="d-flex flex-row justify-content-between">
+                <p>Services fee</p>
+                <p>@Model.ServicesPrice</p>
+            </div>
+            <hr class="m-0" />
+            <div class="d-flex flex-row justify-content-between">
+                <p>Total </p>
+                <p>@Model.TotalPrice</p>
+            </div>
+            <button class="btn btn-danger" style="width:100%">Reserve</button>
+
+        </div>
+
+    </form>
+</div>
+
+
+*@
