@@ -8,6 +8,7 @@ namespace airbnb.DTO
         public ReserveDTO Reserve { get; set; }
         public string Description { get; set; }
         public string Location { get; set; }
+        public string Map { get; set; }
         public double AvgRating { get; set; }
         public int ReviewsNumber { get; set; }
         public List<String> ImagesUrls { get; set; }

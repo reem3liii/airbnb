@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - airbnb</title>
+    <title>@ViewData["Title"] | Airbnb</title>
+    <link rel="shortcut icon" type="image/ico" href="~/images/airbnb.png">
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/airbnb.styles.css" asp-append-version="true" />
@@ -38,7 +40,7 @@
         *@            
         
         <div class="d-flex flex-row justify-content-between border-bottom box-shadow p-3">
-            <a asp-controller="Home" asp-action="Index"><img src="~/images/logo.png" class="logo" /></a>
+        <a asp-controller="MainFeatures" asp-action="getAll"><img src="~/images/logo.png" class="logo" /></a>
             @*<input type="text" class="search" placeholder="Search" id="search">
              <a class="btn-submit" asp-controller="MainFeatures" asp-action="search" id="btn-search" onclick="getSearch()"><img src="~/images/search.png"></a>*@
             @using (Html.BeginForm("search", "MainFeatures", FormMethod.Post))
@@ -51,13 +53,13 @@
             <div class="d-flex flex-row">
                 @if (!User.Identity.IsAuthenticated)
                 {
-                    <a class="btn btn-outline-danger ms-3" asp-controller="Users" asp-action="Login">Login</a>
-                    <a class="btn btn-outline-danger" asp-controller="Users" asp-action="Register">Register</a>
+                <a class="btn btn-outline-danger ms-3" asp-controller="Account" asp-action="Login">Login</a>
+                <a class="btn btn-outline-danger" asp-controller="Account" asp-action="Register">Register</a>
                 }
                 else
                 {
-                    <a class="btn btn-outline-danger ms-3" asp-controller="Users" asp-action="Account">Account</a>
-                    <a class="btn btn-outline-danger" asp-controller="Users" asp-action="Logout">Logout</a>
+                <a class="btn btn-outline-danger ms-3" asp-controller="Account" asp-action="Account">Account</a>
+                <a class="btn btn-outline-danger" asp-controller="Account" asp-action="Logout">Logout</a>
                 }
             </div>
         </div>

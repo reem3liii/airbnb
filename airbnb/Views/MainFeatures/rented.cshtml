@@ -1,0 +1,19 @@
+﻿@model List<Rent>
+@{
+    ViewData["Title"] = "Rented";
+}
+
+<div class="d-flex flex-row mt-2">
+    <div class="d-flex flex-column" style="margin:7% 3% 2% 3%; width:45%">
+        <h3 class="mb-4">Unfortunately, we cannot complete the reservation because the place is already booked at this time..</h3>
+        <hr class="mt-0" />
+        <h4 class="mb-4">Please try again and choose another time.</h4>      
+        <h4 class="mb-3">This place is reserved from:</h4>
+        @foreach (var item in Model)
+        {
+            <li>@item.Contract.StartDate.ToString("dd MMMM yyyy") <b>to</b> @item.Contract.EndDate.ToString("dd MMMM yyyy")</li>
+        }
+        <a class="btn btn-danger m-4" asp-controller="MainFeatures" asp-action="placeInDetail" asp-route-id="@Model[0].PlaceId">Back</a>
+    </div>
+    <img src="~/images/sorry.png" width="43%" class="m-1" />
+</div>

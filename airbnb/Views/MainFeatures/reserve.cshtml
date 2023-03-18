@@ -1,44 +1,53 @@
 ﻿@model airbnb.DTO.ReserveDTO
+@{
+    ViewData["Title"] = "Confirm reserve";
+}
 
-<p>In reserve </p>
-
-@*<div class="d-flex flex-row">
+<div class="d-flex flex-row">
     <img src="~/images/Select.png" width="45%" />
-    <form method="post" style="margin:5% 15%">
-        <h4>@Model.DailyPrice per night</h4>
+    <form asp-controller="MainFeatures" asp-action="confirmReserve" method="post" style="margin:5%; width:45%">
+
         <div class="d-flex flex-column">
-            <div class="d-flex flex-row">
-                <div class="d-flex flex-column">
-                    <label asp-for="StartDate">CHECK-IN</label>
-                    <input asp-for="StartDate" class="form-control">
-                </div>
-                <div class="d-flex flex-column">
-                    <label asp-for="EndDate">CHECKOUT</label>
-                    <input asp-for="EndDate" class="form-control">
-                </div>
-            </div>
-            <div class="d-flex flex-row">
-                <label asp-for="GuestsNumber">GUESTS</label>
-            </div>
-            <div class="d-flex flex-row">
-                <input asp-for="GuestsNumber" class="form-control" />
-            </div>
-        </div>
-        <div class="d-flex flex-column">
+            <input name="placeId" asp-for="PlaceId" class="form-control" value="@Model.PlaceId" hidden>
             <div class="d-flex flex-row justify-content-between">
-                <p>@Model.DailyPrice × @Model.Duration </p>
-                <p>@Model.DailypriceInDuration</p>
+                <h5>Check-in date:</h5>
+                <p>@Model.StartDate.Date.ToLongDateString()</p>
+                <input name="startDate" asp-for="StartDate" class="form-control" hidden>
             </div>
             <div class="d-flex flex-row justify-content-between">
-                <p>Services fee</p>
-                <p>@Model.ServicesPrice</p>
+                <h5>Checkout date:</h5>
+                <p>@Model.EndDate.Date.ToLongDateString()</p>
+                <input name="endDate" asp-for="EndDate" class="form-control" hidden>
             </div>
-            <hr class="m-0" />
             <div class="d-flex flex-row justify-content-between">
-                <p>Total </p>
-                <p>@Model.TotalPrice</p>
+                <h5>Guests number:</h5>
+                <p>@Model.GuestsNumber</p>
+                <input name="guests" asp-for="GuestsNumber" class="form-control" hidden />
+
             </div>
-            <button class="btn btn-danger" style="width:100%">Reserve</button>
+            <hr class="mt-0" />
+            <div class="d-flex flex-row justify-content-between">
+                <h5>@Model.DailyPrice EGP × @Model.Duration nights </h5>
+                <p>@Model.DailypriceInDuration EGP</p>
+            </div>
+            <div class="d-flex flex-row justify-content-between">
+                <h5>Services fee</h5>
+                <p>@Model.ServicesPrice EGP</p>
+            </div>
+            <hr class="mt-0" />
+            <div class="d-flex flex-row justify-content-between">
+                <h5>Total price: </h5>
+                <p>@Model.TotalPrice EGP</p>
+            </div>
+            <div class="d-flex flex-row justify-content-between">
+                <h5>Pay with: </h5>
+                <select name="paymentType" asp-for="PaymentType" class="form-select w-50 p-1 pe-5">
+                    <option value="Credit or debit card" selected>Credit or debit card</option>
+                    <option value="PayPal">PayPal</option>
+                    <option value="Google Pay">Google Pay</option>
+                </select>
+            </div>
+            <button class="btn btn-danger mt-4" style="width:100%">Confirm Reserve</button>
 
         </div>
 
@@ -46,4 +55,4 @@
 </div>
 
 
-*@
+

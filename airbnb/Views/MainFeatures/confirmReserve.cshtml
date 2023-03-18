@@ -1,0 +1,35 @@
+﻿@model airbnb.Models.Rent
+@{
+    ViewData["Title"] = "Confirm reserve";
+}
+
+<div class="d-flex flex-row">
+    <div class="d-flex flex-column" style="margin:5% 3%; width:45%">
+        <h3 class="mb-4">Congratulations, your reservation has been confirmed!</h3>
+        <hr class="mt-0" />
+        <h4 class="mb-3">Booking details</h4>
+        <hr class="mt-0" />
+        <div class="d-flex flex-row justify-content-between">
+            <h5>Check-in date:</h5>
+            <p>@Model.Contract.StartDate.ToLongDateString()</p>
+        </div>
+        <div class="d-flex flex-row justify-content-between">
+            <h5>Checkout date:</h5>
+            <p>@Model.Contract.EndDate.ToLongDateString()</p>
+        </div>
+        <div class="d-flex flex-row justify-content-between">
+            <h5>Guests number:</h5>
+            <p>@Model.GuestsNumber</p>
+        </div>
+        <div class="d-flex flex-row justify-content-between">
+            <h5>Location:</h5>
+            <p>@Model.Place.Location</p>
+        </div>
+        <div class="d-flex flex-row justify-content-between">
+            <h5>Place info:</h5>
+            <p>@Model.Place.Type with @Model.Place.BedroomNumber bedroom, @Model.Place.BedNumber bed and @Model.Place.BathroomNumber bathroom</p>
+        </div>
+        <a class="btn btn-danger mt-4" asp-controller="MainFeatures" asp-action="getAll">Back</a>
+    </div>
+    <img src="~/images/Confirmed.png" width="45%" />
+</div>

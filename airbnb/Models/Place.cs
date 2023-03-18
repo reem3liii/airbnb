@@ -15,6 +15,8 @@ namespace airbnb.Models
         [StringLength(50)]
         public string Location { get; set; }
 
+        public string Map { get; set; }
+
         [Required]
         [StringLength(30)]
         public string Type { get; set; }

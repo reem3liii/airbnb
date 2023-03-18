@@ -4,6 +4,7 @@ namespace airbnb.DTO
 {
     public class ReserveDTO
     {
+        public int PlaceId { get; set; }
         public int DailyPrice { get; set; }
         [Required]
         [DataType(DataType.Date)]
@@ -16,16 +17,10 @@ namespace airbnb.DTO
         [Required]
         public int GuestsNumber { get; set; }
         public int ServicesPrice { get; set; }
-
         public int Duration { get; set; }
         public int DailypriceInDuration { get; set; }
         public int TotalPrice { get; set; }
-        /*public int DailyPrice { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public int GuestsNumber { get; set; }
-        public int ServicesPrice { get; set; }
-        public int Duration { get; set; }*/
+        public string PaymentType { get; set; }
 
 
     }
