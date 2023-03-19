@@ -306,7 +306,8 @@ namespace airbnb.Controllers
             Where(x => x.DailyPrice >= minPrice && x.DailyPrice <= maxPrice && x.BedNumber == bedNum && x.BedroomNumber == bedRoomNum && x.BathroomNumber == bathRoomNum && x.Type == type).ToList();
             if (places.Count == 0)
             {
-                return Content("No data match the requirement");
+                //return Content("No data match the requirement");
+                return View("notFound");
             }
             else
             {
@@ -337,7 +338,8 @@ namespace airbnb.Controllers
             List<Place> places = _context.Places.Include(p => p.Reviews).Where(x => x.Location.Contains(location)).ToList();
             if (places.Count == 0)
             {
-                return Content("No data match the requirement");
+                //return Content("No data match the requirement");
+                return View("notFound");
             }
             else
             {

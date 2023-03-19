@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oG7EzI9Z+/6fDAwLqrX8CquB3/u5SI5rLUR8K6jLRiU=",
+  "Hash": "bSIF5JJO43nhQMLL/eCpDWk14CEfuBfX3Oa5cpGHZNU=",
   "Source": "airbnb",
   "BasePath": "_content/airbnb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "airbnb\\wwwroot",
       "Source": "airbnb",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\airbnb.styles.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\airbnb.styles.css",
       "SourceId": "airbnb",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "airbnb.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\iti\\.GB\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\airbnb.styles.css"
+      "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\airbnb.styles.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\airbnb.bundle.scp.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\airbnb.bundle.scp.css",
       "SourceId": "airbnb",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "airbnb.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\iti\\.GB\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\airbnb.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\airbnb.bundle.scp.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\css\\site.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\css\\site2.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\css\\site2.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "css/site2.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site2.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\favicon.ico",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,44 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\airbnb.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\7.avif",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/7.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7.avif"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\a.png",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a.png"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\airbnb.png",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/airbnb.png",
       "AssetKind": "All",
@@ -119,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\airbnb.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\airbnb-privacy.jpeg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\airbnb-privacy.jpeg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/airbnb-privacy.jpeg",
       "AssetKind": "All",
@@ -136,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\airbnb-privacy.jpeg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\aircoverForHosts.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\aircoverForHosts.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/aircoverForHosts.png",
       "AssetKind": "All",
@@ -153,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\aircoverForHosts.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\All.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\All.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/All.jpg",
       "AssetKind": "All",
@@ -170,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\All.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Amazing pools.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Amazing pools.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Amazing pools.jpg",
       "AssetKind": "All",
@@ -187,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Amazing pools.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Amazing views.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Amazing views.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Amazing views.jpg",
       "AssetKind": "All",
@@ -204,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Amazing views.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Apartment.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Apartment.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Apartment.jpg",
       "AssetKind": "All",
@@ -221,10 +255,27 @@
       "OriginalItemSpec": "wwwroot\\images\\Apartment.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Beach.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\basics.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/basics.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\basics.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Beach.jpg",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Beach.jpg",
       "AssetKind": "All",
@@ -238,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beach.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Beachfront.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Beachfront.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Beachfront.jpg",
       "AssetKind": "All",
@@ -255,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beachfront.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Chalet.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Chalet.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Chalet.png",
       "AssetKind": "All",
@@ -272,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Chalet.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Confirmed.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Confirmed.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Confirmed.png",
       "AssetKind": "All",
@@ -289,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Confirmed.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Desert.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Desert.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Desert.jpg",
       "AssetKind": "All",
@@ -306,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Desert.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\garden.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\garden.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/garden.jpg",
       "AssetKind": "All",
@@ -323,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\garden.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Hotel.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Hotel.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Hotel.jpg",
       "AssetKind": "All",
@@ -340,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Hotel.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\House.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\House.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/House.jpg",
       "AssetKind": "All",
@@ -357,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\House.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Iconic cities.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Iconic cities.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Iconic cities.jpg",
       "AssetKind": "All",
@@ -374,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Iconic cities.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\lake.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\lake.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/lake.jpg",
       "AssetKind": "All",
@@ -391,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\lake.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Login.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Login.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Login.png",
       "AssetKind": "All",
@@ -408,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Login.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\logo.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -425,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\mountain.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\mountain.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/mountain.jpg",
       "AssetKind": "All",
@@ -442,10 +493,27 @@
       "OriginalItemSpec": "wwwroot\\images\\mountain.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Register.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\noData.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/noData.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\noData.png"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Register.png",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Register.png",
       "AssetKind": "All",
@@ -459,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Register.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\search.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\search.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/search.png",
       "AssetKind": "All",
@@ -476,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\search.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Select.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Select.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Select.png",
       "AssetKind": "All",
@@ -493,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Select.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\sorry.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\sorry.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/sorry.png",
       "AssetKind": "All",
@@ -510,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sorry.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Superhost.PNG",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Superhost.PNG",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Superhost.PNG",
       "AssetKind": "All",
@@ -527,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Superhost.PNG"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Tiny homes.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Tiny homes.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Tiny homes.jpg",
       "AssetKind": "All",
@@ -544,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tiny homes.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Trending.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Trending.jpg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Trending.jpg",
       "AssetKind": "All",
@@ -561,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Trending.jpg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Vacation home.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Vacation home.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Vacation home.png",
       "AssetKind": "All",
@@ -578,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Vacation home.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Villa.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\images\\Villa.png",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "images/Villa.png",
       "AssetKind": "All",
@@ -595,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Villa.png"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\js\\site2.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\js\\site2.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "js/site2.js",
       "AssetKind": "All",
@@ -612,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site2.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap.css",
       "AssetKind": "All",
@@ -629,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -646,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -663,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -680,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -697,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -714,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -731,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -748,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -765,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -782,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -799,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -816,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -833,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -850,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -867,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -884,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -901,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -918,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -935,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -952,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -969,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -986,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1003,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1020,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1037,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1054,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1071,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1088,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1105,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1122,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1139,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1156,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1173,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1190,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1207,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1224,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1241,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1258,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1275,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1292,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1309,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1326,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1343,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1360,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1377,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1394,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1411,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1428,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1445,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1462,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1479,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1513,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1530,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1547,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1564,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1581,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1598,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1615,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1649,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1666,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1683,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1700,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1717,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1734,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1751,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1768,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1785,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1802,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1819,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1836,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1853,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1870,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1887,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1904,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1921,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1938,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1955,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1972,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1989,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2006,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2023,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2040,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -2057,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2074,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2091,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2108,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2125,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_accordion.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_accordion.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_accordion.scss",
       "AssetKind": "All",
@@ -2142,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -2159,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -2176,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -2193,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -2210,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -2227,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -2244,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -2261,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -2278,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_containers.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_containers.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_containers.scss",
       "AssetKind": "All",
@@ -2295,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -2312,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -2329,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -2346,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -2363,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_helpers.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_helpers.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_helpers.scss",
       "AssetKind": "All",
@@ -2380,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -2397,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -2414,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_maps.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_maps.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_maps.scss",
       "AssetKind": "All",
@@ -2431,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_maps.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -2448,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -2465,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -2482,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -2499,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_offcanvas.scss",
       "AssetKind": "All",
@@ -2516,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -2533,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_placeholders.scss",
       "AssetKind": "All",
@@ -2550,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -2567,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -2584,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -2601,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -2618,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -2635,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -2652,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -2669,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -2686,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_transitions.scss",
       "AssetKind": "All",
@@ -2703,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -2720,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -2737,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/_variables.scss",
       "AssetKind": "All",
@@ -2754,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -2771,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -2788,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -2805,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/bootstrap-utilities.scss",
       "AssetKind": "All",
@@ -2822,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_floating-labels.scss",
       "AssetKind": "All",
@@ -2839,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_form-check.scss",
       "AssetKind": "All",
@@ -2856,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_form-control.scss",
       "AssetKind": "All",
@@ -2873,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_form-range.scss",
       "AssetKind": "All",
@@ -2890,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_form-select.scss",
       "AssetKind": "All",
@@ -2907,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_form-text.scss",
       "AssetKind": "All",
@@ -2924,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_input-group.scss",
       "AssetKind": "All",
@@ -2941,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_labels.scss",
       "AssetKind": "All",
@@ -2958,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/forms/_validation.scss",
       "AssetKind": "All",
@@ -2975,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_clearfix.scss",
       "AssetKind": "All",
@@ -2992,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_color-bg.scss",
       "AssetKind": "All",
@@ -3009,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_colored-links.scss",
       "AssetKind": "All",
@@ -3026,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_position.scss",
       "AssetKind": "All",
@@ -3043,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_ratio.scss",
       "AssetKind": "All",
@@ -3060,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_stacks.scss",
       "AssetKind": "All",
@@ -3077,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_stretched-link.scss",
       "AssetKind": "All",
@@ -3094,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_text-truncation.scss",
       "AssetKind": "All",
@@ -3111,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_visually-hidden.scss",
       "AssetKind": "All",
@@ -3128,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/helpers/_vr.scss",
       "AssetKind": "All",
@@ -3145,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -3162,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_backdrop.scss",
       "AssetKind": "All",
@@ -3179,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_banner.scss",
       "AssetKind": "All",
@@ -3196,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -3213,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -3230,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -3247,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -3264,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -3281,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -3298,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_color-scheme.scss",
       "AssetKind": "All",
@@ -3315,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_container.scss",
       "AssetKind": "All",
@@ -3332,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -3349,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -3366,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -3383,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -3400,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -3417,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -3434,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -3451,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -3468,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -3485,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -3502,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_table-variants.scss",
       "AssetKind": "All",
@@ -3519,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -3536,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -3553,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_utilities.scss",
       "AssetKind": "All",
@@ -3570,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/mixins/_visually-hidden.scss",
       "AssetKind": "All",
@@ -3587,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/utilities/_api.scss",
       "AssetKind": "All",
@@ -3604,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -3621,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\all.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/all.css",
       "AssetKind": "All",
@@ -3638,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/all.min.css",
       "AssetKind": "All",
@@ -3655,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\brands.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/brands.css",
       "AssetKind": "All",
@@ -3672,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/brands.min.css",
       "AssetKind": "All",
@@ -3689,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/fontawesome.css",
       "AssetKind": "All",
@@ -3706,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -3723,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\regular.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/regular.css",
       "AssetKind": "All",
@@ -3740,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/regular.min.css",
       "AssetKind": "All",
@@ -3757,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\solid.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/solid.css",
       "AssetKind": "All",
@@ -3774,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/solid.min.css",
       "AssetKind": "All",
@@ -3791,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/svg-with-js.css",
       "AssetKind": "All",
@@ -3808,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -3825,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/v4-font-face.css",
       "AssetKind": "All",
@@ -3842,10 +3910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/v4-font-face.min.css",
       "AssetKind": "All",
@@ -3859,10 +3927,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/v4-shims.css",
       "AssetKind": "All",
@@ -3876,10 +3944,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -3893,10 +3961,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/v5-font-face.css",
       "AssetKind": "All",
@@ -3910,10 +3978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/css/v5-font-face.min.css",
       "AssetKind": "All",
@@ -3927,10 +3995,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\all.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/all.js",
       "AssetKind": "All",
@@ -3944,10 +4012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/all.min.js",
       "AssetKind": "All",
@@ -3961,10 +4029,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\brands.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/brands.js",
       "AssetKind": "All",
@@ -3978,10 +4046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/brands.min.js",
       "AssetKind": "All",
@@ -3995,10 +4063,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/conflict-detection.js",
       "AssetKind": "All",
@@ -4012,10 +4080,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/conflict-detection.min.js",
       "AssetKind": "All",
@@ -4029,10 +4097,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/fontawesome.js",
       "AssetKind": "All",
@@ -4046,10 +4114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/fontawesome.min.js",
       "AssetKind": "All",
@@ -4063,10 +4131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\regular.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/regular.js",
       "AssetKind": "All",
@@ -4080,10 +4148,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/regular.min.js",
       "AssetKind": "All",
@@ -4097,10 +4165,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\solid.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/solid.js",
       "AssetKind": "All",
@@ -4114,10 +4182,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/solid.min.js",
       "AssetKind": "All",
@@ -4131,10 +4199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/v4-shims.js",
       "AssetKind": "All",
@@ -4148,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/js/v4-shims.min.js",
       "AssetKind": "All",
@@ -4165,10 +4233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/sprites/brands.svg",
       "AssetKind": "All",
@@ -4182,10 +4250,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\brands.svg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/sprites/regular.svg",
       "AssetKind": "All",
@@ -4199,10 +4267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\regular.svg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/sprites/solid.svg",
       "AssetKind": "All",
@@ -4216,10 +4284,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\solid.svg"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -4233,10 +4301,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -4250,10 +4318,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -4267,10 +4335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -4284,10 +4352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -4301,10 +4369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -4318,10 +4386,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -4335,10 +4403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
@@ -4352,10 +4420,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -4369,10 +4437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -4386,10 +4454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -4403,10 +4471,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -4420,10 +4488,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -4437,10 +4505,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4454,10 +4522,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4471,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4488,10 +4556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4505,10 +4573,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4522,10 +4590,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4539,10 +4607,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "airbnb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\FullStack\\airbnb\\airbnb\\wwwroot\\",
       "BasePath": "_content/airbnb",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

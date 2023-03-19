@@ -7,6 +7,7 @@ namespace airbnb.Models
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CustomerId { get; set; }
+        public string ImgSrc { get; set; }
 
         [Required]
         [StringLength(20)]

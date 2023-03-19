@@ -1,0 +1,64 @@
+﻿@model airbnb.Models.Customer
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="mt-5 fs-5" style="width: 50%">
+    <img src="~/images/basics.jpg" class="img-circle" />
+    <i class="fa-solid fa-camera icon-camera"></i>
+    <dl class="row">
+        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+            <dt class="col-6">
+                First name
+            </dt>
+            <dd class="col-6">
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+        </div>
+        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+            <dt class="col-6">
+                Last name
+            </dt>
+            <dd class="col-6">
+                @Html.DisplayFor(model => model.LastName)
+            </dd>
+        </div>
+        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+            <dt class="col-6">
+                Date of birth
+            </dt>
+            <dd class="col-6">
+                @Html.DisplayFor(model => model.DOB)
+            </dd>
+        </div>
+        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+            <dt class="col-6">
+                @Html.DisplayNameFor(model => model.Address)
+            </dt>
+            <dd class="col-6">
+                @Html.DisplayFor(model => model.Address)
+            </dd>
+        </div>
+        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+            <dt class="col-6">
+                National ID
+            </dt>
+            <dd class="col-6">
+                @Html.DisplayFor(model => model.NID)
+            </dd>
+        </div>
+        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+            <dt class="col-6">
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd class="col-6">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+        </div>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.CustomerId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

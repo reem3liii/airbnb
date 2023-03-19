@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
 
 namespace airbnb.Controllers
 {
@@ -95,6 +96,23 @@ namespace airbnb.Controllers
                 return RedirectToAction("getAll", "MainFeatures");
             }
             return View(model);
+        }
+
+        public async Task<IActionResult> Profile(int? id)
+        {
+            if (id == null || _context.Customers == null)
+            {
+                return NotFound();
+            }
+
+            var customer = await _context.Customers
+                .FirstOrDefaultAsync(m => m.CustomerId == id);
+            if (customer == null)
+            {
+                return NotFound();
+            }
+
+            return View(customer);
         }
 
     }

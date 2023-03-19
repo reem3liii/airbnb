@@ -40,7 +40,7 @@
         *@            
         
         <div class="d-flex flex-row justify-content-between border-bottom box-shadow p-3">
-        <a asp-controller="MainFeatures" asp-action="getAll"><img src="~/images/logo.png" class="logo" /></a>
+        <a asp-controller="MainFeatures" asp-action="getAll"><img src="~/images/logo.png" class="logo p-1" /></a>
             @*<input type="text" class="search" placeholder="Search" id="search">
              <a class="btn-submit" asp-controller="MainFeatures" asp-action="search" id="btn-search" onclick="getSearch()"><img src="~/images/search.png"></a>*@
             @using (Html.BeginForm("search", "MainFeatures", FormMethod.Post))

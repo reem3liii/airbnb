@@ -4,7 +4,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary box-shadow m-0">
     <div class="container-fluid">
-        <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-between mt-1 mx-2" id="navbarNavAltMarkup">
             <div class="navbar-nav text-center">
                 <a class="nav-link active link" asp-controller="MainFeatures" asp-action="getAll"><img src="~/images/All.jpg" class="img-icon" /><br /><span>All Places</span></a>
                 <a class="nav-link link" asp-controller="MainFeatures" asp-action="trending"><img src="~/images/Trending.jpg" height="40px" class="img-icon" /><br /><span>Trending</span></a>
@@ -17,7 +17,7 @@
             </div>
             
             <button type="button" class="btn-filter" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <i class="fa-solid fa-filter icon-filter"></i>Filters
+                <i class="fa-solid fa-sliders px-1"></i>Filters
             </button>
             
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -176,7 +176,7 @@
                                         <div class="input-container">
                                             <input type="radio" id="type6" name="type" value="Vacation home">
                                             <div class="radio-title">
-                                                <i class="fa-solid fa-house-circle-exclamation icon-type"></i>
+                                                <i class="fa-solid fa-house-chimney-window icon-type"></i>
                                                 <label for="type6" class="type-label">Vacation home</label>
                                             </div>
                                         </div>  
