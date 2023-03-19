@@ -58,7 +58,7 @@
                 }
                 else
                 {
-                <a class="btn btn-outline-danger ms-3" asp-controller="Account" asp-action="Account">Account</a>
+                <a class="btn btn-outline-danger ms-3" asp-controller="Account" asp-action="Profile" asp-route-id="@User.Identity.Name">Account</a>
                 <a class="btn btn-outline-danger" asp-controller="Account" asp-action="Logout">Logout</a>
                 }
             </div>

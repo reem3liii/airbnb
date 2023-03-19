@@ -9,6 +9,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace airbnb.Controllers
 {
@@ -114,6 +115,50 @@ namespace airbnb.Controllers
 
             return View(customer);
         }
+
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null || _context.Customers == null)
+            {
+                return NotFound();
+            }
+
+            var customer = await _context.Customers.FindAsync(id);
+            if (customer == null)
+            {
+                return NotFound();
+            }
+            return View(customer);
+        }
+
+  
+        [HttpPost]
+        public async Task<IActionResult> Edit(Customer customer, IFormFile img)
+        {
+            if(img != null)
+            {
+                var imgName = customer.CustomerId.ToString() + "." + (img.FileName.Split(".").Last());
+                if (img != null)
+                {
+                    using (var item = System.IO.File.Create("wwwroot/images/" + imgName))
+                    {
+                        img.CopyTo(item);
+                    }
+                }
+                customer.ImgSrc = imgName;
+                await _context.SaveChangesAsync();
+            }
+
+            if (ModelState.IsValid)
+            {
+                _context.Update(customer);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Profile", new {id= customer.CustomerId});
+            }
+
+            return View(customer);
+        }
+
 
     }
 }

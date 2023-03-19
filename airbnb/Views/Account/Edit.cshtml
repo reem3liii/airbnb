@@ -1,0 +1,115 @@
+﻿@model airbnb.Models.Customer
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<form class="d-flex flex-row justify-content-around mt-3" asp-controller="Account" asp-action="Edit" enctype="multipart/form-data" method="post">
+    <div class="d-flex flex-column" style="width:40%">
+        <input type="hidden" asp-for="CustomerId" />
+        <input type="hidden" asp-for="ImgSrc" />
+        <div class="form-group fs-5 m-3 fw-bold">
+            <label asp-for="FirstName" class="control-label mb-2"> First name</label>
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-group fs-5 m-3 fw-bold">
+            <label asp-for="LastName" class="control-label mb-2"> Last name</label>
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+        <div class="form-group fs-5 m-3 fw-bold">
+            <label asp-for="Address" class="control-label mb-2"></label>
+            <input asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+        <div class="form-group fs-5 m-3 fw-bold">
+            <label asp-for="NID" class="control-label mb-2"> National ID</label>
+            <input asp-for="NID" class="form-control" />
+            <span asp-validation-for="NID" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column" style="width:40%">
+        <div class="form-group fs-5 m-3 fw-bold">
+            <label asp-for="Email" class="control-label mb-2"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <input type="hidden" asp-for="Password" />
+        <div class="form-group fs-5 m-3 fw-bold">
+            <label asp-for="DOB" class="control-label mb-2">Date of birth</label>
+            <input asp-for="DOB" class="form-control" />
+            <span asp-validation-for="DOB" class="text-danger"></span>
+        </div>
+        <div class="form-group fs-5 m-3 fw-bold">
+            <label class="control-label mb-2"> Image </label>
+            <input type="file" name="img" class="form-control" />
+        </div>
+        <div class="form-group fs-5 m-3 fw-bold d-flex flex-row justify-content-between">
+            <input type="submit" value="Save" class="btn btn-danger w-50" style="margin-right:3%" />
+            <a asp-controller="Account" asp-action="Profile" asp-route-id="@Model.CustomerId" class="btn btn-secondary w-50">Back</a>
+        </div>
+    </div>
+
+</form>
+
+@*
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Account" asp-action="Edit" enctype="multipart/form-data" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CustomerId" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"> First name</label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"> Last name</label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NID" class="control-label"> National ID</label>
+                <input asp-for="NID" class="form-control" />
+                <span asp-validation-for="NID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Password" />
+            <div class="form-group">
+                <label asp-for="DOB" class="control-label">Date of birth</label>
+                <input asp-for="DOB" class="form-control" />
+                <span asp-validation-for="DOB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label"> Image </label>
+                <input type="file" name="img" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-danger" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Account" asp-action="Profile" asp-route-id="@Model.CustomerId" class="btn btn-secondary">Back</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}*@

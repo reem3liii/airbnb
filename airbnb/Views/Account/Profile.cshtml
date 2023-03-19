@@ -4,61 +4,66 @@
     ViewData["Title"] = "Profile";
 }
 
-<div class="mt-5 fs-5" style="width: 50%">
-    <img src="~/images/basics.jpg" class="img-circle" />
-    <i class="fa-solid fa-camera icon-camera"></i>
-    <dl class="row">
-        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
-            <dt class="col-6">
-                First name
-            </dt>
-            <dd class="col-6">
-                @Html.DisplayFor(model => model.FirstName)
-            </dd>
+<div class="d-flex flex-row">
+    <div class="mt-4 me-3" style="width: 60%; font-size:110%">
+        <div class="d-flex flex-row">
+            <img src="~/images/@Model.ImgSrc" class="img-circle" />
+            <div class="d-flex flex-column justify-content-center me-5">
+                <h3> Welcome, @Model.FirstName @Model.LastName</h3>
+            </div>
         </div>
-        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
-            <dt class="col-6">
-                Last name
-            </dt>
-            <dd class="col-6">
-                @Html.DisplayFor(model => model.LastName)
-            </dd>
+        <dl class="row">
+            <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+                <dt class="col-6">
+                    Date of birth
+                </dt>
+                <dd class="col-6">
+                    @Html.DisplayFor(model => model.DOB)
+                </dd>
+            </div>
+            <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+                <dt class="col-6">
+                    @Html.DisplayNameFor(model => model.Address)
+                </dt>
+                <dd class="col-6">
+                    @Html.DisplayFor(model => model.Address)
+                </dd>
+            </div>
+            <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+                <dt class="col-6">
+                    National ID
+                </dt>
+                <dd class="col-6">
+                    @Html.DisplayFor(model => model.NID)
+                </dd>
+            </div>
+            <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
+                <dt class="col-6">
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+                <dd class="col-6">
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+            </div>
+        </dl>
+        <div class="d-flex flex-row justify-content-around">
+            <a class="btn btn-danger" asp-action="Edit" asp-route-id="@Model.CustomerId" style="margin-right:2%; width:50%">Edit</a>
+            <a class="btn btn-secondary" asp-action="getAll" asp-controller="MainFeatures" style="width:50%">Back</a>
         </div>
-        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
-            <dt class="col-6">
-                Date of birth
-            </dt>
-            <dd class="col-6">
-                @Html.DisplayFor(model => model.DOB)
-            </dd>
+    </div>
+    
+    <div class="d-flex flex-column mt-3" style="width:40%">
+        <div class="border-2 shadow rounded-4 m-4 p-4">
+            <i class="fa-solid fa-lock fs-2 m-2" style="color:#ff5361"></i>
+            <h4>Which details can be edited?</h4>
+            <p style="color:#999">Details Airbnb uses to verify your identity can’t be changed. Contact info and some personal details can be edited, but we may ask you verify your identity the next time you book or create a listing.</p>
+            <hr />
+            <i class="fa-solid fa-eye fs-2 m-2" style="color:#ff5361"></i>
+            <h4>What info is shared with others?</h4>
+            <p style="color:#999">Airbnb only releases contact information for Hosts and guests after a reservation is confirmed.</p>
         </div>
-        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
-            <dt class="col-6">
-                @Html.DisplayNameFor(model => model.Address)
-            </dt>
-            <dd class="col-6">
-                @Html.DisplayFor(model => model.Address)
-            </dd>
-        </div>
-        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
-            <dt class="col-6">
-                National ID
-            </dt>
-            <dd class="col-6">
-                @Html.DisplayFor(model => model.NID)
-            </dd>
-        </div>
-        <div class="d-flex justify-content-between" style="border-bottom: 1px solid #e8e8e8; padding: 2% 0%;">
-            <dt class="col-6">
-                @Html.DisplayNameFor(model => model.Email)
-            </dt>
-            <dd class="col-6">
-                @Html.DisplayFor(model => model.Email)
-            </dd>
-        </div>
-    </dl>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.CustomerId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+
+
