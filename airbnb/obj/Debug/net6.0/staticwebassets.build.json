@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s6RyQu7V7b0KbdV/Kxt4R20IK1Tds7EUIwZlsxD8ZD4=",
+  "Hash": "oG7EzI9Z+/6fDAwLqrX8CquB3/u5SI5rLUR8K6jLRiU=",
   "Source": "airbnb",
   "BasePath": "_content/airbnb",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\airbnb-privacy.jpeg"
+    },
+    {
+      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\aircoverForHosts.png",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/aircoverForHosts.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aircoverForHosts.png"
     },
     {
       "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\All.jpg",
@@ -491,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\sorry.png"
+    },
+    {
+      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Superhost.PNG",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/Superhost.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Superhost.PNG"
     },
     {
       "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Tiny homes.jpg",

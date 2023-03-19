@@ -15,11 +15,11 @@
                 <a class="nav-link link" asp-controller="MainFeatures" asp-action="garden"><img src="~/images/garden.jpg" height="40px" class="img-icon" /><br /><span>Garden View</span></a>
                 <a class="nav-link link" asp-controller="MainFeatures" asp-action="mountain"><img src="~/images/mountain.jpg" height="40px" class="img-icon" /><br /><span>Mountain</span></a>
             </div>
-            <!-- Button trigger modal -->
+            
             <button type="button" class="btn-filter" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <i class="fa-solid fa-filter icon-filter"></i>Filters
             </button>
-            <!-- Modal -->
+            
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable">
                     <div class="modal-content">
@@ -48,136 +48,144 @@
                                     <h5>Rooms and beds</h5>
                                     <div>
                                         <p>Bedrooms</p>
-                                        <div class="d-flex">
-                                            <div class="bedRoomNum">
-                                                <input type="radio" id="bedRoomNum1" name="bedRoomNum" value="1" checked>
-                                                <label for="bedRoomNum1">1</label>
-                                            </div>
-                                            <div class="bedRoomNum">
-                                                <input type="radio" id="bedRoomNum2" name="bedRoomNum" value="2">
-                                                <label for="bedRoomNum2">2</label>
-                                            </div>
-                                            <div class="bedRoomNum">
-                                                <input type="radio" id="bedRoomNum3" name="bedRoomNum" value="3">
-                                                <label for="bedRoomNum3">3</label>
-                                            </div>
-                                            <div  class="bedRoomNum">
-                                                <input type="radio" id="bedRoomNum4" name="bedRoomNum" value="4">
-                                                <label for="bedRoomNum4">4</label>
-                                            </div>
-                                            <div class="bedRoomNum">
-                                                <input type="radio" id="bedRoomNum5" name="bedRoomNum" value="5">
-                                                <label for="bedRoomNum5">5</label>
-                                            </div>
-                                            <div class="bedRoomNum">
-                                                <input type="radio" id="bedRoomNum6" name="bedRoomNum" value="6">
-                                                <label for="bedRoomNum6">6</label>
-                                            </div>
+                                        <div class="d-flex container-bedRoomNum">
+                                            <label class="container-label">
+                                                <input type="radio" id="bedRoomNum1" class="input-radio" name="bedRoomNum" value="1" checked>
+                                                <span>1</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedRoomNum2" class="input-radio" name="bedRoomNum" value="2">
+                                                <span>2</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedRoomNum3" class="input-radio" name="bedRoomNum" value="3">
+                                                <span>3</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedRoomNum4" class="input-radio" name="bedRoomNum" value="4">
+                                                <span>4</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedRoomNum5" class="input-radio" name="bedRoomNum" value="5">
+                                                <span>5</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedRoomNum6" class="input-radio" name="bedRoomNum" value="6">
+                                                <span>6</span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="mt-3">
                                         <p>Beds</p>
-                                        <div class="d-flex">
-                                            <div  class="bedNum">
-                                                <input type="radio" id="bedNum1" name="bedNum" value="1" checked>
-                                                <label for="bedNum1">1</label>
-                                            </div>
-                                            <div  class="bedNum">
-                                                <input type="radio" id="bedNum2" name="bedNum" value="2">
-                                                <label for="bedNum2">2</label>
-                                            </div>
-                                            <div class="bedNum">
-                                                <input type="radio" id="bedNum3" name="bedNum" value="3">
-                                                <label for="bedNum3">3</label>
-                                            </div>
-                                            <div  class="bedNum">
-                                                <input type="radio" id="bedNum4" name="bedNum" value="4">
-                                                <label for="bedNum4">4</label>
-                                            </div>
-                                            <div  class="bedNum">
-                                                <input type="radio" id="bedNum5" name="bedNum" value="5">
-                                                <label for="bedNum5">5</label>
-                                            </div>
-                                            <div class="bedNum">
-                                                <input type="radio" id="bedNum6" name="bedNum" value="6">
-                                                <label for="bedNum6">6</label>
-                                            </div>
+                                        <div class="d-flex container-bedNum">
+                                            <label class="container-label">
+                                                <input type="radio" id="bedNum1" class="input-radio" name="bedNum" value="1" checked>
+                                                <span>1</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedNum2" class="input-radio" name="bedNum" value="2">
+                                                <span>2</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedNum3" class="input-radio" name="bedNum" value="3">
+                                                <span>3</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedNum4" class="input-radio" name="bedNum" value="4">
+                                                <span>4</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedNum5" class="input-radio" name="bedNum" value="5">
+                                                <span>5</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bedNum6" class="input-radio" name="bedNum" value="6">
+                                                <span>6</span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="mt-3">
                                         <p>Bathrooms</p>
-                                        <div class="d-flex">
-                                            <div class="bathRoomNum">
-                                                <input type="radio" id="bathRoomNum1" name="bathRoomNum" value="1" checked>
-                                                <label for="bathRoomNum1">1</label>
-                                            </div>
-                                            <div class="bathRoomNum">
-                                                <input type="radio" id="bathRoomNum2" name="bathRoomNum" value="2">
-                                                <label for="bathRoomNum2">2</label>
-                                            </div>
-                                            <div class="bathRoomNum">
-                                                <input type="radio" id="bathRoomNum3" name="bathRoomNum" value="3">
-                                                <label for="bathRoomNum3">3</label>
-                                            </div>
-                                            <div class="bathRoomNum">
-                                                <input type="radio" id="bathRoomNum4" name="bathRoomNum" value="4">
-                                                <label for="bathRoomNum4">4</label>
-                                            </div>
-                                            <div class="bathRoomNum">
-                                                <input type="radio" id="bathRoomNum5" name="bathRoomNum" value="5">
-                                                <label for="bathRoomNum5">5</label>
-                                            </div>
-                                            <div class="bathRoomNum">
-                                                <input type="radio" id="bathRoomNum6" name="bathRoomNum" value="6">
-                                                <label for="bathRoomNum6">6</label>
-                                            </div>
+                                        <div class="d-flex container-bathRoomNum">
+                                            <label class="container-label">
+                                                <input type="radio" id="bathRoomNum1" class="input-radio" name="bathRoomNum" value="1" checked>
+                                                <span>1</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bathRoomNum2" class="input-radio" name="bathRoomNum" value="2">
+                                                <span>2</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bathRoomNum3" class="input-radio" name="bathRoomNum" value="3">
+                                                <span>3</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bathRoomNum4" class="input-radio" name="bathRoomNum" value="4">
+                                                <span>4</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bathRoomNum5" class="input-radio" name="bathRoomNum" value="5">
+                                                <span>5</span>
+                                            </label>
+                                            <label class="container-label">
+                                                <input type="radio" id="bathRoomNum6" class="input-radio" name="bathRoomNum" value="6">
+                                                <span>6</span>
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
                                 <hr />
                                 <div class="mt-3">
                                     <h5>Property type</h5>
-                                    <div class="mt-3 d-flex">
-                                        <div class="mb-3">
-                                            <div class="type">
+                                    <div class="mt-3 d-flex radio-title-group">
+                                        <div class="input-container">
                                                 <input type="radio" id="type1" name="type" value="House" checked>
-                                                <label for="type1">House</label>
-                                            </div>
-                                            <div class="type">
-                                                <input type="radio" id="type2" name="type" value="Apartment">
-                                                <label for="type2">Apartment</label>
+                                                <div class="radio-title">
+                                                    <i class="fa-solid fa-house icon-type"></i>
+                                                <label for="type1" class="type-label">House</label>
+                                                </div>
+                                        </div>
+                                        <div class="input-container">
+                                            <input type="radio" id="type2" name="type" value="Apartment">
+                                            <div class="radio-title">
+                                                <i class="fa-solid fa-building icon-type"></i>
+                                                <label for="type2" class="type-label">Apartment</label>
                                             </div>
                                         </div>
-                                        <div class="mb-3">
-                                            <div class="type">
-                                                <input type="radio" id="type3" name="type" value="Hotel">
-                                                <label for="type3">Hotel</label>
-                                            </div>
-                                            <div class="type">
-                                                <input type="radio" id="type4" name="type" value="Villa">
-                                                <label for="type4">Villa</label>
+                                        <div class="input-container">
+                                            <input type="radio" id="type3" name="type" value="Hotel">
+                                            <div class="radio-title">
+                                                <i class="fa-solid fa-hotel icon-type"></i>
+                                                <label for="type3" class="type-label">Hotel</label>
                                             </div>
                                         </div>
-                                        <div class="mb-3">
-                                            <div class="type">
-                                                <input type="radio" id="type5" name="type" value="Chalet">
-                                                <label for="type5">Chalet</label>
-                                            </div>
-                                            <div class="type">
-                                                <input type="radio" id="type6" name="type" value="Vacation home">
-                                                <label for="type6">Vacation home</label>
+                                        <div class="input-container">
+                                            <input type="radio" id="type4" name="type" value="Villa">
+                                            <div class="radio-title">
+                                                <i class="fa-solid fa-landmark icon-type"></i>
+                                                <label for="type4" class="type-label">Villa</label>
                                             </div>
                                         </div>
+                                        <div class="input-container">
+                                            <input type="radio" id="type5" name="type" value="Chalet">
+                                            <div class="radio-title">
+                                                <i class="fa-solid fa-shop icon-type"></i>
+                                                <label for="type5" class="type-label">Chalet</label>
+                                            </div>
+                                        </div>
+                                        <div class="input-container">
+                                            <input type="radio" id="type6" name="type" value="Vacation home">
+                                            <div class="radio-title">
+                                                <i class="fa-solid fa-house-circle-exclamation icon-type"></i>
+                                                <label for="type6" class="type-label">Vacation home</label>
+                                            </div>
+                                        </div>  
                                     </div>
                                 </div>
                                 <hr />
                                 <button type="submit" id="filter">Filter</button>
                             }
                         </div>
-                        @*<div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>*@
                     </div>
                 </div>
             </div>

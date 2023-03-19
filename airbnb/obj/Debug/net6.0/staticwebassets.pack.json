@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\images\\Select.png"
     },
     {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Superhost.PNG",
+      "PackagePath": "staticwebassets\\images\\Superhost.PNG"
+    },
+    {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Tiny homes.jpg",
       "PackagePath": "staticwebassets\\images\\Tiny homes.jpg"
     },
@@ -99,6 +103,10 @@
     {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\airbnb.png",
       "PackagePath": "staticwebassets\\images\\airbnb.png"
+    },
+    {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\aircoverForHosts.png",
+      "PackagePath": "staticwebassets\\images\\aircoverForHosts.png"
     },
     {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\garden.jpg",
