@@ -18,7 +18,9 @@
             <label asp-for="Password" class="form-label fw-bold fs-5"></label>
             <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-lock"></i></span>
-                <input asp-for="Password" class="form-control rounded py-2 fs-5" aria-describedby="inputGroupPrepend" required>
+                <input asp-for="Password" id="password" class="form-control rounded py-2 fs-5" aria-describedby="inputGroupPrepend" style="postion: relative;" required>
+                <i id="open" class="fa-solid fa-eye" style="position: absolute;margin-left: 90%; margin-top: 5%;"></i>
+                <i id="close" class="fa-solid fa-eye-slash" style="position: absolute;margin-left: 90%; margin-top: 5%; display: none;"></i>
             </div>
         </div>
         <br />
@@ -32,6 +34,19 @@
         </div>
     </form>
 </div>
-
-
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#open").click(function(){
+            $("#open").hide();
+            $("#close").show();
+            $("#password").attr("type", "text");
+        });
+        $("#close").click(function(){
+            $("#close").hide();
+            $("#open").show();
+            $("#password").attr("type", "password");
+        });
+    });
+</script>
 

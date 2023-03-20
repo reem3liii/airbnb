@@ -40,14 +40,18 @@
             <label asp-for="Password" class="form-label fw-bold mt-1"></label>
             <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-lock"></i></span>
-                <input asp-for="Password" class="form-control rounded" aria-describedby="inputGroupPrepend" required>
+                <input asp-for="Password" id="password" class="form-control rounded" aria-describedby="inputGroupPrepend" required>
+                <i id="open" class="fa-solid fa-eye" style="position: absolute;margin-left: 90%; margin-top: 4%;"></i>
+                <i id="close" class="fa-solid fa-eye-slash" style="position: absolute;margin-left: 90%; margin-top: 4%; display: none;"></i>
             </div>
         </div>
         <div class="col">
             <label asp-for="CPassword" class="form-label fw-bold mt-1">Confirm password</label>
             <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-unlock"></i></span>
-                <input asp-for="CPassword" class="form-control rounded" aria-describedby="inputGroupPrepend" required>
+                <input asp-for="CPassword" id="cpassword" class="form-control rounded" aria-describedby="inputGroupPrepend" required>
+                <i id="opened" class="fa-solid fa-eye" style="position: absolute;margin-left: 90%; margin-top: 4%;"></i>
+                <i id="closed" class="fa-solid fa-eye-slash" style="position: absolute;margin-left: 90%; margin-top: 4%; display: none;"></i>
             </div>
         </div>
 
@@ -62,6 +66,30 @@
     </form>
 </div>
 
-
-
-
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#open").click(function () {
+            $("#open").hide();
+            $("#close").show();
+            $("#password").attr("type", "text");
+        });
+        $("#close").click(function () {
+            $("#close").hide();
+            $("#open").show();
+            $("#password").attr("type", "password");
+        });
+    });
+    $(document).ready(function () {
+        $("#opened").click(function () {
+            $("#opened").hide();
+            $("#closed").show();
+            $("#cpassword").attr("type", "text");
+        });
+        $("#closed").click(function () {
+            $("#closed").hide();
+            $("#opened").show();
+            $("#cpassword").attr("type", "password");
+        });
+    });
+</script>
