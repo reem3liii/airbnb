@@ -2,9 +2,9 @@
     ViewData["Title"] = "All Places";
 }
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary box-shadow m-0">
+<div class="navbar navbar-expand bg-body-tertiary box-shadow m-0">
     <div class="container-fluid">
-        <div class="collapse navbar-collapse justify-content-between mt-1 mx-2" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-between mt-1" id="navbarNavAltMarkup">
             <div class="navbar-nav text-center">
                 <a class="nav-link active link" asp-controller="MainFeatures" asp-action="getAll"><img src="~/images/All.jpg" class="img-icon" /><br /><span>All Places</span></a>
                 <a class="nav-link link" asp-controller="MainFeatures" asp-action="trending"><img src="~/images/Trending.jpg" height="40px" class="img-icon" /><br /><span>Trending</span></a>
@@ -15,11 +15,11 @@
                 <a class="nav-link link" asp-controller="MainFeatures" asp-action="garden"><img src="~/images/garden.jpg" height="40px" class="img-icon" /><br /><span>Garden View</span></a>
                 <a class="nav-link link" asp-controller="MainFeatures" asp-action="mountain"><img src="~/images/mountain.jpg" height="40px" class="img-icon" /><br /><span>Mountain</span></a>
             </div>
-            
-            <button type="button" class="btn-filter" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+            <button type="button" class="btn-filter block-s" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <i class="fa-solid fa-sliders px-1"></i>Filters
             </button>
-            
+
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable">
                     <div class="modal-content">
@@ -139,11 +139,11 @@
                                     <h5>Property type</h5>
                                     <div class="mt-3 d-flex radio-title-group">
                                         <div class="input-container">
-                                                <input type="radio" id="type1" name="type" value="House" checked>
-                                                <div class="radio-title">
-                                                    <i class="fa-solid fa-house icon-type"></i>
+                                            <input type="radio" id="type1" name="type" value="House" checked>
+                                            <div class="radio-title">
+                                                <i class="fa-solid fa-house icon-type"></i>
                                                 <label for="type1" class="type-label">House</label>
-                                                </div>
+                                            </div>
                                         </div>
                                         <div class="input-container">
                                             <input type="radio" id="type2" name="type" value="Apartment">
@@ -179,7 +179,7 @@
                                                 <i class="fa-solid fa-house-chimney-window icon-type"></i>
                                                 <label for="type6" class="type-label">Vacation home</label>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                 </div>
                                 <hr />
@@ -191,33 +191,7 @@
             </div>
         </div>
     </div>
-</nav>
-
-<div class="placeList">
-    @foreach (var item in Model)
-    {
-        <a class="btn" asp-action="placeInDetail" asp-route-id="@item.PlaceId">
-            <div class="slider-frame">
-                <div class="slide-images">
-                    <div class="img-container">
-                        <img src="@item.ImagesUrls[0]" class="img">
-                    </div>
-                    <div class="img-container">
-                        <img src="@item.ImagesUrls[1]" class="img">
-                    </div>
-                    <div class="img-container">
-                        <img src="@item.ImagesUrls[2]" class="img">
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex mt-2">@item.Location</div>
-
-            <div class="d-flex TypeAndRating mt-2">
-                <p>@item.Type</p>
-                <p class="PRating"><i class="fa-solid fa-star"></i> @item.AvgRating.ToString("0.##")</p>
-            </div>
-
-            <div class="d-flex">@item.DailyPrice EGP night</div>
-        </a>
-    }
 </div>
+
+
+@Html.Partial("placeGrid")

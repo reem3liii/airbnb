@@ -1,13 +1,8 @@
-﻿using airbnb.DTO;
-using airbnb.Models;
+﻿using airbnb.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 
@@ -28,7 +23,7 @@ namespace airbnb.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginDTO model, string? returnurl)
+        public async Task<IActionResult> Login(LoginViewModel model, string? returnurl)
         {
             if (!ModelState.IsValid)
             {
@@ -58,9 +53,9 @@ namespace airbnb.Controllers
                 ModelState.AddModelError("", "Invalid email or password, Check your informtion again!");
                 return View(model);
             }
-           
-        }
 
+        }
+        [Authorize]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
@@ -72,7 +67,7 @@ namespace airbnb.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterDTO model)
+        public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -99,13 +94,9 @@ namespace airbnb.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult> Profile(int? id)
+        [Authorize]
+        public async Task<IActionResult> Profile(int id)
         {
-            if (id == null || _context.Customers == null)
-            {
-                return NotFound();
-            }
-
             var customer = await _context.Customers
                 .FirstOrDefaultAsync(m => m.CustomerId == id);
             if (customer == null)
@@ -116,13 +107,9 @@ namespace airbnb.Controllers
             return View(customer);
         }
 
-        public async Task<IActionResult> Edit(int? id)
+        [Authorize]
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null || _context.Customers == null)
-            {
-                return NotFound();
-            }
-
             var customer = await _context.Customers.FindAsync(id);
             if (customer == null)
             {
@@ -131,11 +118,11 @@ namespace airbnb.Controllers
             return View(customer);
         }
 
-  
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Edit(Customer customer, IFormFile img)
         {
-            if(img != null)
+            if (img != null)
             {
                 var imgName = customer.CustomerId.ToString() + "." + (img.FileName.Split(".").Last());
                 if (img != null)
@@ -153,7 +140,7 @@ namespace airbnb.Controllers
             {
                 _context.Update(customer);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Profile", new {id= customer.CustomerId});
+                return RedirectToAction("Profile", new { id = customer.CustomerId });
             }
 
             return View(customer);

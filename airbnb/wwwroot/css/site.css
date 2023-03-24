@@ -1,44 +1,22 @@
-/*html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}*/
-
-/*body {
-    margin-bottom: 60px;
-}*/
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-/* Header && Footer of Layout*/
+/* Layout page */
+
 .logo{
-    /*margin-left: 30px;*/
     height: 40px;
 }
 .container-search {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    width: 250px;
+    width:100%;
     padding-left: 10px;
     border-radius: 20px;
     border: 1px solid #999;
-/*    margin-left: 420px;
-    margin-right: 420px;*/
 }
-
 .search {
     display: block;
     border: 0;
@@ -46,17 +24,16 @@ html {
     background: transparent;
     padding: 8px;
 }
-
 .btn-submit {
     background: #ff5361;
     width: 30px;
     height: 30px;
+    margin-right:7px;
     border-radius: 50%;
     border: 0;
     outline: none;
     cursor: pointer;
 }
-
 .btn-submit img {
     width: 15px;
     padding-top: 5px;
@@ -64,7 +41,7 @@ html {
 }
 .contain-footer {
     display: flex;
-    margin: 5px 100px;
+    margin: 2% 10%;
     justify-content:space-between;
 }
 .social-icons {
@@ -81,23 +58,23 @@ html {
     opacity: 0.6;
 }
 .link-privacy,
-.link-AirbnbYourHome{
+.link-AirbnbYourHome,
+.link-AirCover {
     text-decoration: none;
     color: #000;
     margin-left: 10px;
 }
 .link-privacy:hover,
-.link-AirbnbYourHome:hover{
+.link-AirbnbYourHome:hover,
+.link-AirCover:hover {
     text-decoration: underline;
     color: #000;
 }
 
-/* Get All Places*/
+/* All Places page */
+
 .placeList {
-    /*width: 100%;*/
     display: grid;
-    /*grid-template-columns: auto auto auto auto;*/
-    margin-left: 20px;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
 .slider-frame {
@@ -106,7 +83,6 @@ html {
     width: 340px;
     margin-top: 20px;
 }
-
 @keyframes slide_animation {
     0% {
         left: 0px;
@@ -152,70 +128,17 @@ html {
         left: 0px;
     }
 }
-
-@-webkit-keyframes slide_animation {
-    0% {
-        left: 0px;
-    }
-
-    10% {
-        left: 0px;
-    }
-
-    20% {
-        left: 340px;
-    }
-
-    30% {
-        left: 340px;
-    }
-
-    40% {
-        left: 680px;
-    }
-
-    50% {
-        left: 680px;
-    }
-
-    60% {
-        left: 340px;
-    }
-
-    70% {
-        left: 340px;
-    }
-
-    80% {
-        left: 0px;
-    }
-
-    90% {
-        left: 0px;
-    }
-
-    100% {
-        left: 0px;
-    }
-}
-
 .slide-images {
     height: 300px;
     width: 1020px;
     margin: 0 0 0 -680px;
     position: relative;
-    -webkit-animation-name: slide_animation;
     animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
     animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
     animation-direction: alternate;
-    -webkit-animation-play-state: running;
     animation-play-state: running;
 }
-
 .img-container {
     height: 300px;
     width: 340px;
@@ -234,7 +157,9 @@ html {
 .PRating {
     margin-left: 100px;
 }
-/* Nav Bar of Home Page */
+
+/* Nav Bar */
+
 .link{
     margin-right: 20px;
 }
@@ -264,24 +189,16 @@ html {
 .icon-filter{
     margin-right: 10px;
 }
-/* Privacy */
+
+/* Privacy page */
+
 .para{
     font-size: 18px;
 }
-/*Filter*/
-
-
-/*.bedRoomNum,
-.bedNum,
-.bathRoomNum,
-.type{
-    font-size: 18px;
-    margin-right: 25px;
-}*/
-
 
 
 /* Filteration */
+
 #close {
     margin-left: 370px;
 }
@@ -316,23 +233,21 @@ html {
 .container-label span:hover,
 .input-radio:checked + span{
     background-color: #e8e8e8;
-    /*color: #ff5361;*/
 }
-    .container-label span:before {
-        content: "";
-        background-color: #fff;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        margin-right: 10px;
-        transition: .25s ease;
-        box-shadow: inset 0 0 0 2px #3b434a;
-    }
+.container-label span:before {
+   content: "";
+   background-color: #fff;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   margin-right: 10px;
+   transition: .25s ease;
+   box-shadow: inset 0 0 0 2px #3b434a;
+}
 .input-radio:checked + span:before {
     background-color: #e8e8e8;
     box-shadow: inset 0 0 0 6px #3b434a;
 }
-/******************************************/
 .radio-title-group {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -358,46 +273,32 @@ html {
     align-items: center;
     justify-content: center;
     height: 100%;
-    /*border: 2px solid #ff5361;*/
     border: 2px solid #e8e8e8;
     border-radius: 8px;
     transition: all 300ms ease;
 }
 .input-container .icon-type {
-    /*color: #ff5361;*/
-    /*color: #000;
-    opacity: 0.8;*/
-    /*color: #222;*/
     color: #3b434a;
     font-size: 3rem;        
 }
 .input-container .type-label {
-        /*color: #ff5361;*/
-        color: #000;
-        font-size: 0.80rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-top: 10px;
-        text-align: center;
-}    
+    color: #000;
+    font-size: 0.80rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-align: center;       
+}        
 input:checked + .radio-title {
-    /*background-color: #ff5361;
-    box-shadow: 0 0 12px #ff5361;*/
     background-color: #e8e8e8;
     box-shadow: 0 0 12px #e8e8e8;
     border: 2px solid #000;
 }
 input:hover + .radio-title {
-    /*box-shadow: 0 0 12px #ff5361;*/
     box-shadow: 0 0 12px #e8e8e8;
     border: 2px solid #000;
 }
-/*input:checked + .radio-title .icon-type,
-input:checked + .radio-title .type-label {
-    color: #fff;
-    text-align: center;
-}*/
 #filter {
     background: #ff5361;
     color: #fff;
@@ -408,7 +309,8 @@ input:checked + .radio-title .type-label {
     margin-left: 360px;
 }
 
-/*Airbnb Your Home*/
+/* Airbnb Your Home page */
+
 .p-about,
 .p-td {
     font-size: 18px;
@@ -464,17 +366,15 @@ th{
     margin-right: 20px;
 }
 .apartment-img {
-    width: 350px;
-    height: 350px;
-    border-radius: 20px;
+    width: 100%;
+    height: 80%;
+    border-radius: 3%;
 }
 .span-title{
     font-size: 14px;
     color: #999;
 }
-/*********** Accordion ***************/
 .accordion {
-    /*max-width: 600px;*/
     box-shadow: 0 4px 4px -2px #0008;
     border-radius: 5px;
     overflow: hidden;
@@ -489,14 +389,10 @@ th{
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    /*background: #293138;*/
     background: #3b434a;
     color: #fff;
     cursor: pointer;
 }
-/*.tab-label:hover{
-    background: #1e2521;
-}*/
 .tab-label::after{
     content: "\276F";
     width: 1em;
@@ -504,9 +400,6 @@ th{
     text-align: center;
     transition: all .35s;
 }
-/*.tab .tab-input:checked + .tab-label {
-    background: #1e2521;
-}*/
 .tab .tab-input:checked + .tab-label::after {
     transform: rotate(90deg);
 }
@@ -526,8 +419,9 @@ th{
 .tab-input {
     position: absolute;
     opacity: 0;
-    /*z-index: -1;*/
 }
+
+/* Profile page*/
 
 .img-circle {
     width: 200px;
@@ -536,3 +430,244 @@ th{
     margin-bottom: 3%;
 }
 
+/* media query*/
+
+@media (max-width: 1200px){
+    .img-container {
+        width: 280px;
+    }
+    .img {
+        width: 280px;
+    }
+    .placeList {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+    .slider-frame {
+        width: 280px;
+    }
+    .slide-images {
+        width: 840px;
+        margin: 0 0 0 -560px;
+    }
+    @keyframes slide_animation {
+        0% {
+            left: 0px;
+        }
+
+        10% {
+            left: 0px;
+        }
+
+        20% {
+            left: 280px;
+        }
+
+        30% {
+            left: 280px;
+        }
+
+        40% {
+            left: 560px;
+        }
+
+        50% {
+            left: 560px;
+        }
+
+        60% {
+            left: 280px;
+        }
+
+        70% {
+            left: 280px;
+        }
+
+        80% {
+            left: 0px;
+        }
+
+        90% {
+            left: 0px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+    .TypeAndRating {
+        width: 280px;
+    }
+
+}
+
+@media (max-width:992px){
+    .nav-link span {
+        display: none;
+    }
+    .placeList {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+    .slider-frame {
+        width: 320px;
+    }
+    @keyframes slide_animation {
+        0% {
+            left: 0px;
+        }
+
+        10% {
+            left: 0px;
+        }
+
+        20% {
+            left: 320px;
+        }
+
+        30% {
+            left: 320px;
+        }
+
+        40% {
+            left: 640px;
+        }
+
+        50% {
+            left: 640px;
+        }
+
+        60% {
+            left: 320px;
+        }
+
+        70% {
+            left: 320px;
+        }
+
+        80% {
+            left: 0px;
+        }
+
+        90% {
+            left: 0px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+    .slide-images {
+        width: 960px;
+        margin: 0 0 0 -640px;
+    }
+    .img-container {
+        width: 320px;
+    }
+    .img {
+        width: 320px;
+    }
+    .TypeAndRating {
+        width: 320px;
+    }
+}
+
+@media (max-width:768px) {
+    .container-search {
+        width: 80%;
+        padding:2% 0% 2% 3%;
+    }
+    .search {
+        padding: 4px;
+    }
+    .btn-submit {
+        margin-left: -23%;
+        width: 45px;
+    }
+    .link {
+        margin-right: 3%;
+    }
+    .header-btn{
+        font-size:small;
+        padding:4%;
+        height:80%;
+    }
+    .info-profile {
+        visibility: hidden;
+    }
+    .profile-detail{
+        margin-left:15%
+    }
+    .login-register-img {
+        display: none;
+        width: 0;
+    }
+    .contain-footer {
+        margin: 2%;
+    }
+    .block-s {
+        display: none;
+    }
+    .placeList {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+    .slider-frame {
+        width: 400px;
+    }
+    @keyframes slide_animation {
+        0% {
+            left: 0px;
+        }
+
+        10% {
+            left: 0px;
+        }
+
+        20% {
+            left: 400px;
+        }
+
+        30% {
+            left: 400px;
+        }
+
+        40% {
+            left: 800px;
+        }
+
+        50% {
+            left: 800px;
+        }
+
+        60% {
+            left: 400px;
+        }
+
+        70% {
+            left: 400px;
+        }
+
+        80% {
+            left: 0px;
+        }
+
+        90% {
+            left: 0px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+    .slide-images {
+        width: 1200px;
+        margin: 0 0 0 -800px;
+    }
+    .img-container {
+        width: 400px;
+    }
+    .img {
+        width: 400px;
+    }
+    .TypeAndRating {
+        width: 400px;
+    }
+}

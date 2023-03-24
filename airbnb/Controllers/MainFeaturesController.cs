@@ -1,9 +1,7 @@
-﻿using airbnb.DTO;
-using airbnb.Models;
+﻿using airbnb.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.Contracts;
 
 namespace airbnb.Controllers
 {
@@ -26,13 +24,13 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
 
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
-                    placesDTO.Add(new PlaceDTO()
+                    placesDTO.Add(new PlaceViewModel()
                     {
                         PlaceId = p.PlaceId,
                         Location = p.Location,
@@ -57,14 +55,14 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
                     if (avgRate >= 4)
                     {
-                        placesDTO.Add(new PlaceDTO()
+                        placesDTO.Add(new PlaceViewModel()
                         {
                             PlaceId = p.PlaceId,
                             Location = p.Location,
@@ -88,7 +86,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -99,7 +97,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("pool") || service.Contains("Pool"))
                         {
-                            placesDTO.Add(new PlaceDTO()
+                            placesDTO.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -125,7 +123,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -136,7 +134,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Beach") || service.Contains("Sea"))
                         {
-                            placesDTO.Add(new PlaceDTO()
+                            placesDTO.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -162,7 +160,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -173,7 +171,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Desert"))
                         {
-                            placesDTO.Add(new PlaceDTO()
+                            placesDTO.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -198,7 +196,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -209,7 +207,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Garden"))
                         {
-                            placesDTO.Add(new PlaceDTO()
+                            placesDTO.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -235,7 +233,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -246,7 +244,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Lake"))
                         {
-                            placesDTO.Add(new PlaceDTO()
+                            placesDTO.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -272,7 +270,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -283,7 +281,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Mountain"))
                         {
-                            placesDTO.Add(new PlaceDTO()
+                            placesDTO.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -299,24 +297,24 @@ namespace airbnb.Controllers
                 return View(placesDTO);
             }
         }
-        [HttpPost("filter")]
+
+        [HttpPost]
         public ActionResult filter(int maxPrice, int minPrice, int bedNum, int bedRoomNum, int bathRoomNum, string type)
         {
             List<Place> places = _context.Places.Include(p => p.Reviews).
             Where(x => x.DailyPrice >= minPrice && x.DailyPrice <= maxPrice && x.BedNumber == bedNum && x.BedroomNumber == bedRoomNum && x.BathroomNumber == bathRoomNum && x.Type == type).ToList();
             if (places.Count == 0)
             {
-                //return Content("No data match the requirement");
                 return View("notFound");
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
-                    placesDTO.Add(new PlaceDTO()
+                    placesDTO.Add(new PlaceViewModel()
                     {
                         PlaceId = p.PlaceId,
                         Location = p.Location,
@@ -332,23 +330,22 @@ namespace airbnb.Controllers
             }
         }
 
-        [HttpPost("search")]
+        [HttpPost]
         public ActionResult search(string location)
         {
             List<Place> places = _context.Places.Include(p => p.Reviews).Where(x => x.Location.Contains(location)).ToList();
             if (places.Count == 0)
             {
-                //return Content("No data match the requirement");
                 return View("notFound");
             }
             else
             {
-                List<PlaceDTO> placesDTO = new List<PlaceDTO>();
+                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
-                    placesDTO.Add(new PlaceDTO()
+                    placesDTO.Add(new PlaceViewModel()
                     {
                         PlaceId = p.PlaceId,
                         Location = p.Location,
@@ -364,7 +361,7 @@ namespace airbnb.Controllers
             }
         }
 
-        [HttpGet("placeInDetail")]
+        [HttpGet]
         public ActionResult placeInDetail(int id)
         {
             Place place = _context.Places.Include(p => p.Reviews).Include(p => p.Owner).FirstOrDefault(p => p.PlaceId == id);
@@ -379,7 +376,7 @@ namespace airbnb.Controllers
                 List<string> services = _context.Place_Service.Where(x => x.PlaceId == place.PlaceId).Select(x => x.Service).ToList();
                 List<string> phones = _context.Owner_Phone.Where(x => x.OwnerId == place.Owner.OwnerId).Select(x => x.PhoneNumber).ToList();
 
-                PlaceDetailsDTO placeDetailDTO = new PlaceDetailsDTO()
+                PlaceDetailsViewModel placeDetailDTO = new PlaceDetailsViewModel()
                 {
                     PlaceId = place.PlaceId,
                     Description = place.Description,
@@ -397,7 +394,7 @@ namespace airbnb.Controllers
                     Reviews = place.Reviews,
                     Owner = place.Owner,
                     OwnerPhones = phones,
-                    Reserve = new ReserveDTO()
+                    Reserve = new ReserveViewModel()
                     {
                         PlaceId = place.PlaceId,
                         DailyPrice = place.DailyPrice,
@@ -414,7 +411,7 @@ namespace airbnb.Controllers
         [Authorize]
         public ActionResult reserve(int placeId, int dailyPrice, DateTime startDate, DateTime endDate, int guests, int services)
         {
-            ReserveDTO reserveDTO = new ReserveDTO()
+            ReserveViewModel reserveDTO = new ReserveViewModel()
             {
                 PlaceId = placeId,
                 DailyPrice = dailyPrice,
@@ -432,12 +429,11 @@ namespace airbnb.Controllers
         [Authorize]
         public async Task<IActionResult> confirmReserve(int placeId, DateTime startDate, DateTime endDate, string paymentType, int guests)
         {
-            var rented = _context.Rent.Where(x => x.PlaceId == placeId).Include(x=> x.Contract).ToList();
-            
+            var rented = _context.Rent.Where(x => x.PlaceId == placeId).Include(x => x.Contract).ToList();
 
             if (rented.Count > 0)
             {
-                foreach(var item in rented)
+                foreach (var item in rented)
                 {
                     var rentedStartDate = item.Contract.StartDate;
                     var rentedEndDate = item.Contract.EndDate;
@@ -459,7 +455,7 @@ namespace airbnb.Controllers
                         }
                     }
                 }
-                
+
             }
 
             Models.Contract contract = new Models.Contract()

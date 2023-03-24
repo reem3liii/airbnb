@@ -1,0 +1,28 @@
+﻿<div class="placeList">
+    @foreach (var item in Model)
+    {
+        <a class="btn" asp-action="placeInDetail" asp-route-id="@item.PlaceId">
+            <div class="slider-frame">
+                <div class="slide-images">
+                    <div class="img-container">
+                        <img src="@item.ImagesUrls[0]" class="img">
+                    </div>
+                    <div class="img-container">
+                        <img src="@item.ImagesUrls[1]" class="img">
+                    </div>
+                    <div class="img-container">
+                        <img src="@item.ImagesUrls[2]" class="img">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mt-2">@item.Location</div>
+
+            <div class="d-flex TypeAndRating mt-2">
+                <p>@item.Type</p>
+                <p class="PRating"><i class="fa-solid fa-star"></i> @item.AvgRating.ToString("0.##")</p>
+            </div>
+
+            <div class="d-flex">@item.DailyPrice EGP night</div>
+        </a>
+    }
+</div>

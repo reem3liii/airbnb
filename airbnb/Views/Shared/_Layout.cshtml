@@ -7,64 +7,37 @@
     <link rel="shortcut icon" type="image/ico" href="~/images/airbnb.png">
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/airbnb.styles.css" asp-append-version="true" />
-	
-    <link href="~/css/site2.css" rel="stylesheet" />
-	<link href="~/css/site.css" rel="stylesheet" />
-
-    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
+    <link href="~/css/site.css" rel="stylesheet" />
 
-	<link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
-	<link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="~/lib/bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
-	<link href="~/lib/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
-	<script src="~/lib/bootstrap/js/bootstrap.bundle.js"></script>
-	<script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="~/lib/bootstrap/js/bootstrap.esm.js"></script>
-	<script src="~/lib/bootstrap/js/bootstrap.esm.min.js"></script>
-	<script src="~/lib/bootstrap/js/bootstrap.js"></script>
-	<script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
-
-	<link href="~/lib/font-awesome/css/all.css" rel="stylesheet" />
-	<link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
-	<script src="~/lib/font-awesome/js/all.js"></script>
-	<script src="~/lib/font-awesome/js/all.min.js"></script>
-
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/font-awesome/js/all.js"></script>
 </head>
 <body>
-    @*   <header>
-        <nav class="navbar navbar-light bg-white border-bottom box-shadow mb-2 d-flex justify-content-between">
-        *@            
-        
-        <div class="d-flex flex-row justify-content-between border-bottom box-shadow p-3">
+
+    <div class="d-flex flex-row justify-content-between border-bottom box-shadow p-3">
         <a asp-controller="MainFeatures" asp-action="getAll"><img src="~/images/logo.png" class="logo p-1" /></a>
-            @*<input type="text" class="search" placeholder="Search" id="search">
-             <a class="btn-submit" asp-controller="MainFeatures" asp-action="search" id="btn-search" onclick="getSearch()"><img src="~/images/search.png"></a>*@
-            @using (Html.BeginForm("search", "MainFeatures", FormMethod.Post))
-            {
-                <div class="container-search">
-                    <input type="text" class="search" placeholder="Search" name="location">
-                    <button type="submit" class="btn-submit"><img src="~/images/search.png"></button>
-                </div>
-            }
-            <div class="d-flex flex-row">
-                @if (!User.Identity.IsAuthenticated)
-                {
-                <a class="btn btn-outline-danger ms-3" asp-controller="Account" asp-action="Login">Login</a>
-                <a class="btn btn-outline-danger" asp-controller="Account" asp-action="Register">Register</a>
-                }
-                else
-                {
-                <a class="btn btn-outline-danger ms-3" asp-controller="Account" asp-action="Profile" asp-route-id="@User.Identity.Name">Account</a>
-                <a class="btn btn-outline-danger" asp-controller="Account" asp-action="Logout">Logout</a>
-                }
+
+        @using (Html.BeginForm("search", "MainFeatures", FormMethod.Post))
+        {
+            <div class="container-search">
+                <input type="text" class="search" placeholder="Search" name="location">
+                <button type="submit" class="btn-submit"><img src="~/images/search.png"></button>
             </div>
+        }
+        <div class="d-flex flex-row">
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <a class="btn btn-outline-danger m-1 header-btn" asp-controller="Account" asp-action="Login">Login</a>
+                <a class="btn btn-outline-danger header-btn m-1" asp-controller="Account" asp-action="Register">Register</a>
+            }
+            else
+            {
+                <a class="btn btn-outline-danger m-1 header-btn" asp-controller="Account" asp-action="Profile" asp-route-id="@User.Identity.Name">Account</a>
+                <a class="btn btn-outline-danger header-btn m-1" asp-controller="Account" asp-action="Logout">Logout</a>
+            }
         </div>
-@*        </nav>
-    </header>*@
+    </div>
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -72,26 +45,26 @@
         </main>
     </div>
 
-    @*<footer class="border-top footer text-muted">*@
     <hr />
-        <div class="contain-footer">
+    <div class="contain-footer">
         <div>
             &copy; 2023 - airbnb - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="link-privacy">Privacy.</a>
+            <a asp-area="" asp-controller="Home" asp-action="AirCover" class="link-AirCover">AirCover.</a>
             <a asp-area="" asp-controller="Home" asp-action="AirbnbYourHome" class="link-AirbnbYourHome">Airbnb your home</a>
         </div>
-            <div>
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/airbnbuk/?brand_redir=324826532457" target="_blank"><i class="fa-brands fa-facebook-f icon"></i></a></li>
-                    <li><a href="https://twitter.com/airbnb" target="_blank"><i class="fa-brands fa-twitter icon"></i></a></li>
+        <div>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/airbnbuk/?brand_redir=324826532457" target="_blank"><i class="fa-brands fa-facebook-f icon"></i></a></li>
+                <li><a href="https://twitter.com/airbnb" target="_blank"><i class="fa-brands fa-twitter icon"></i></a></li>
                 <li><a href="https://www.instagram.com/airbnb/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a></li>
-                </ul>
-            </div>
+            </ul>
         </div>
-    @*</footer>*@
+    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
