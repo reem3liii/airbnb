@@ -24,13 +24,13 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
 
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
-                    placesDTO.Add(new PlaceViewModel()
+                    placesModel.Add(new PlaceViewModel()
                     {
                         PlaceId = p.PlaceId,
                         Location = p.Location,
@@ -42,7 +42,7 @@ namespace airbnb.Controllers
                     }
                     );
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
 
@@ -55,14 +55,14 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
                     if (avgRate >= 4)
                     {
-                        placesDTO.Add(new PlaceViewModel()
+                        placesModel.Add(new PlaceViewModel()
                         {
                             PlaceId = p.PlaceId,
                             Location = p.Location,
@@ -74,7 +74,7 @@ namespace airbnb.Controllers
                         });
                     }
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
         public ActionResult pool()
@@ -86,7 +86,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -97,7 +97,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("pool") || service.Contains("Pool"))
                         {
-                            placesDTO.Add(new PlaceViewModel()
+                            placesModel.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -110,7 +110,7 @@ namespace airbnb.Controllers
                         }
                     }
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
 
@@ -123,7 +123,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -134,7 +134,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Beach") || service.Contains("Sea"))
                         {
-                            placesDTO.Add(new PlaceViewModel()
+                            placesModel.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -147,7 +147,7 @@ namespace airbnb.Controllers
                         }
                     }
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
 
@@ -160,7 +160,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -171,7 +171,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Desert"))
                         {
-                            placesDTO.Add(new PlaceViewModel()
+                            placesModel.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -184,7 +184,7 @@ namespace airbnb.Controllers
                         }
                     }
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
         public ActionResult garden()
@@ -196,7 +196,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -207,7 +207,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Garden"))
                         {
-                            placesDTO.Add(new PlaceViewModel()
+                            placesModel.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -220,7 +220,7 @@ namespace airbnb.Controllers
                         }
                     }
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
 
@@ -233,7 +233,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -244,7 +244,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Lake"))
                         {
-                            placesDTO.Add(new PlaceViewModel()
+                            placesModel.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -257,7 +257,7 @@ namespace airbnb.Controllers
                         }
                     }
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
 
@@ -270,7 +270,7 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
@@ -281,7 +281,7 @@ namespace airbnb.Controllers
                     {
                         if (service.Contains("Mountain"))
                         {
-                            placesDTO.Add(new PlaceViewModel()
+                            placesModel.Add(new PlaceViewModel()
                             {
                                 PlaceId = p.PlaceId,
                                 Location = p.Location,
@@ -294,7 +294,7 @@ namespace airbnb.Controllers
                         }
                     }
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
 
@@ -309,12 +309,12 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
-                    placesDTO.Add(new PlaceViewModel()
+                    placesModel.Add(new PlaceViewModel()
                     {
                         PlaceId = p.PlaceId,
                         Location = p.Location,
@@ -326,7 +326,7 @@ namespace airbnb.Controllers
                     }
                     );
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
 
@@ -340,12 +340,12 @@ namespace airbnb.Controllers
             }
             else
             {
-                List<PlaceViewModel> placesDTO = new List<PlaceViewModel>();
+                List<PlaceViewModel> placesModel = new List<PlaceViewModel>();
                 foreach (Place p in places)
                 {
                     double avgRate = p.Reviews.Average(p => p.Ratings);
                     List<string> imgUrls = _context.Place_Image.Where(x => x.PlaceId == p.PlaceId).Select(x => x.ImageName).ToList();
-                    placesDTO.Add(new PlaceViewModel()
+                    placesModel.Add(new PlaceViewModel()
                     {
                         PlaceId = p.PlaceId,
                         Location = p.Location,
@@ -357,7 +357,7 @@ namespace airbnb.Controllers
                     }
                     );
                 }
-                return View(placesDTO);
+                return View(placesModel);
             }
         }
 
@@ -376,7 +376,7 @@ namespace airbnb.Controllers
                 List<string> services = _context.Place_Service.Where(x => x.PlaceId == place.PlaceId).Select(x => x.Service).ToList();
                 List<string> phones = _context.Owner_Phone.Where(x => x.OwnerId == place.Owner.OwnerId).Select(x => x.PhoneNumber).ToList();
 
-                PlaceDetailsViewModel placeDetailDTO = new PlaceDetailsViewModel()
+                PlaceDetailsViewModel placeDetailModel = new PlaceDetailsViewModel()
                 {
                     PlaceId = place.PlaceId,
                     Description = place.Description,
@@ -404,14 +404,14 @@ namespace airbnb.Controllers
                         ServicesPrice = _context.Place_Service.Where(x => x.PlaceId == place.PlaceId).Sum(x => x.Price),
                     }
                 };
-                return View(placeDetailDTO);
+                return View(placeDetailModel);
             }
         }
 
         [Authorize]
         public ActionResult reserve(int placeId, int dailyPrice, DateTime startDate, DateTime endDate, int guests, int services)
         {
-            ReserveViewModel reserveDTO = new ReserveViewModel()
+            ReserveViewModel reserveModel = new ReserveViewModel()
             {
                 PlaceId = placeId,
                 DailyPrice = dailyPrice,
@@ -423,7 +423,7 @@ namespace airbnb.Controllers
                 DailypriceInDuration = dailyPrice * (endDate - startDate).Days,
                 TotalPrice = dailyPrice * guests * (endDate - startDate).Days + services,
             };
-            return View(reserveDTO);
+            return View(reserveModel);
         }
 
         [Authorize]
@@ -511,7 +511,6 @@ namespace airbnb.Controllers
                         BathroomNumber= rent.Place.BathroomNumber,
                         StartDate= rent.Contract.StartDate,
                         EndDate= rent.Contract.EndDate,
-                        PaymentType=rent.Contract.PaymentType,
                         GuestsNumber=rent.GuestsNumber,
                     };
 

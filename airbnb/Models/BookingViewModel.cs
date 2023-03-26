@@ -16,7 +16,6 @@ namespace airbnb.Models
         public int BathroomNumber { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public string PaymentType { get; set; }
         public int GuestsNumber { get; set; }
 
     }
