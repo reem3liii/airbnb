@@ -77,7 +77,8 @@ namespace airbnb.Controllers
                     LastName = model.LastName,
                     DOB = model.DOB,
                     Email = model.Email,
-                    Password = model.Password
+                    Password = model.Password,
+                    ImgSrc= "user.jpeg",
                 };
                 _context.Customers.Add(user);
                 _context.SaveChanges();

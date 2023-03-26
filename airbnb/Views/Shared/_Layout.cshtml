@@ -33,8 +33,17 @@
             }
             else
             {
-                <a class="btn btn-outline-danger m-1 header-btn" asp-controller="Account" asp-action="Profile" asp-route-id="@User.Identity.Name">Account</a>
-                <a class="btn btn-outline-danger header-btn m-1" asp-controller="Account" asp-action="Logout">Logout</a>
+                <div class="dropdown">
+                    <button class="btn btn-outline-danger" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile" asp-route-id="@User.Identity.Name">My profile</a></li>
+                        <li><a class="dropdown-item" asp-controller="MainFeatures" asp-action="myBookings">My bookings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
+                    </ul>
+                </div>
             }
         </div>
     </div>

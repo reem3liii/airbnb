@@ -76,6 +76,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXG1vdW50YWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/myBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXG15Qm9va2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/noBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXG5vQm9va2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/iti/.GB/airbnb/airbnb/Views/MainFeatures/notFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkZlYXR1cmVzXG5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

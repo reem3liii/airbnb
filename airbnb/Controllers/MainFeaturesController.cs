@@ -484,5 +484,48 @@ namespace airbnb.Controllers
 
         }
 
+        [Authorize]    
+        public  IActionResult myBookings()
+        {
+            var rents = _context.Rent.Where(x => x.CustomerId == int.Parse(User.Identity.Name)).Include(x=> x.Place).Include(x=> x.Contract).ToList();
+
+            if (rents.Count > 0)
+            {
+                var bookings = new List<BookingViewModel>();
+
+                foreach (var rent in rents)
+                {
+                    List<string> imgs = _context.Place_Image.Where(x => x.PlaceId == rent.PlaceId).Select(x => x.ImageName).ToList();
+
+                    var book = new BookingViewModel()
+                    {
+                        PlaceId=rent.PlaceId,
+                        Description= rent.Place.Description,
+                        Location= rent.Place.Location,
+                        Type= rent.Place.Type,
+                        Map= rent.Place.Map,
+                        Images=imgs,
+                        DailyPrice= rent.Place.DailyPrice,
+                        BedNumber= rent.Place.BedNumber,
+                        BedroomNumber= rent.Place.BedroomNumber,
+                        BathroomNumber= rent.Place.BathroomNumber,
+                        StartDate= rent.Contract.StartDate,
+                        EndDate= rent.Contract.EndDate,
+                        PaymentType=rent.Contract.PaymentType,
+                        GuestsNumber=rent.GuestsNumber,
+                    };
+
+                    bookings.Add(book);
+                }
+
+                return View(bookings);
+
+            }
+            else
+            {
+                return View("noBooking");
+            }
+
+        }
     }
 }
