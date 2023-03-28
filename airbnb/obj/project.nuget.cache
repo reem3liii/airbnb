@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DCIFtlDYi2lz7tLEhQBM75NjgE/l7sgVIvqEZSDcLgy+NLVS5YhLM3VALXlf+SBtLYpRuvOQg7pAw7LewHQP+Q==",
+  "dgSpecHash": "YBv9S1LTBCUHcU9PFbPEiQGTDOR8WFXJpKEwtvE6QMJlB0uWDuWKRfJNVXqE0oz7iEbjRGXEmk5j5fvxqSY0vw==",
   "success": true,
   "projectFilePath": "D:\\iti\\.GB\\airbnb\\airbnb\\airbnb.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\LOGO\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\LOGO\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\LOGO\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnet.webpages.data\\3.2.9\\microsoft.aspnet.webpages.data.3.2.9.nupkg.sha512",
+    "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\3.2.9\\microsoft.aspnet.webpages.webdata.3.2.9.nupkg.sha512",
     "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
@@ -177,5 +179,26 @@
     "C:\\Users\\LOGO\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\LOGO\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages.Data 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages.Data",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages.WebData 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages.WebData",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

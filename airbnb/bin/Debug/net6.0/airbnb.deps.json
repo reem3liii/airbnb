@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "airbnb/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNet.WebPages.WebData": "3.2.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.14",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.12"
@@ -50,6 +51,25 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
+      "Microsoft.AspNet.WebPages.Data/3.2.9": {
+        "runtime": {
+          "lib/net45/WebMatrix.Data.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages.WebData/3.2.9": {
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.Data": "3.2.9"
+        },
+        "runtime": {
+          "lib/net45/WebMatrix.WebData.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Razor.Language/6.0.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
@@ -2284,6 +2304,20 @@
       "sha512": "sha512-uJhZlGMkXDaFYsH8V9S6o1EyvsUqB9mpU4DVBXNr0DXZVzZMhuLP1IkLj5xK3EKlaAcvkFkZv3eSvuz360wb3Q==",
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages.Data/3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D6QnqWJ+d8Xr+M957eEECnY7gUPJmR+FLfn+L0hoCWrXQjNNmMnxGt8IVqXQAPlWJaJjrq6Kwh+9Eu3NvtxZMA==",
+      "path": "microsoft.aspnet.webpages.data/3.2.9",
+      "hashPath": "microsoft.aspnet.webpages.data.3.2.9.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages.WebData/3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rrwovp6Ue75a3CckDF70NoEvURCW/Hjlqrn1BhRmPX8mNrAPyQFmve9+xYEopdo/cjRd65w7tkklpD9XCftBBg==",
+      "path": "microsoft.aspnet.webpages.webdata/3.2.9",
+      "hashPath": "microsoft.aspnet.webpages.webdata.3.2.9.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
       "type": "package",

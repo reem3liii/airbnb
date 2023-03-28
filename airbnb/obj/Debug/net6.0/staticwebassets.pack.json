@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\images\\Register.png"
     },
     {
+      "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Reset.png",
+      "PackagePath": "staticwebassets\\images\\Reset.png"
+    },
+    {
       "Id": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Select.png",
       "PackagePath": "staticwebassets\\images\\Select.png"
     },

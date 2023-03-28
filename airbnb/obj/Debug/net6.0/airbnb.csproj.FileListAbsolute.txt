@@ -1094,3 +1094,5 @@ C:\Users\hp\Desktop\FullStack MVC\airbnb\airbnb\obj\Debug\net6.0\refint\airbnb.d
 C:\Users\hp\Desktop\FullStack MVC\airbnb\airbnb\obj\Debug\net6.0\airbnb.pdb
 C:\Users\hp\Desktop\FullStack MVC\airbnb\airbnb\obj\Debug\net6.0\airbnb.genruntimeconfig.cache
 C:\Users\hp\Desktop\FullStack MVC\airbnb\airbnb\obj\Debug\net6.0\ref\airbnb.dll
+D:\iti\.GB\airbnb\airbnb\bin\Debug\net6.0\WebMatrix.Data.dll
+D:\iti\.GB\airbnb\airbnb\bin\Debug\net6.0\WebMatrix.WebData.dll

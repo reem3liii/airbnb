@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F5g41H2x7ihVHLSSkwAopSOZ+V2Ef4cuXq14jkpEKXs=",
+  "Hash": "5Dr6EQeqeQdLyGmH+hbWwu3lQVldCP546zA+/mGA68U=",
   "Source": "airbnb",
   "BasePath": "_content/airbnb",
   "Mode": "Default",
@@ -440,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Register.png"
+    },
+    {
+      "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\Reset.png",
+      "SourceId": "airbnb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\",
+      "BasePath": "_content/airbnb",
+      "RelativePath": "images/Reset.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Reset.png"
     },
     {
       "Identity": "D:\\iti\\.GB\\airbnb\\airbnb\\wwwroot\\images\\search.png",

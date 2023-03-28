@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using WebMatrix.WebData;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
 
 namespace airbnb.Controllers
 {
@@ -146,7 +149,36 @@ namespace airbnb.Controllers
 
             return View(customer);
         }
+        [Authorize]
+        public ActionResult ResetPassword()
+        {
+            return View();
+        }
+        [Authorize]
+        [HttpPost]
+        public ActionResult ResetPassword(ResetPasswordViewModel model, int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
 
+            var customer =  _context.Customers.Find(id);
+
+            if(customer.Password == model.OldPassword) {
+
+                customer.Password = model.NewPassword;
+                _context.SaveChanges();
+                return RedirectToAction("Profile", new { id = customer.CustomerId });
+            }
+            else
+            {
+                ModelState.AddModelError("", "Incorrect old password");
+                return View(model);
+            }
+
+            
+        }
 
     }
 }

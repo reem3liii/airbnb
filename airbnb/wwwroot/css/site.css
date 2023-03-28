@@ -41,7 +41,7 @@
 }
 .contain-footer {
     display: flex;
-    margin: 2% 10%;
+    margin: 0% 10%;
     justify-content:space-between;
 }
 .social-icons {

@@ -95,7 +95,7 @@ namespace airbnb.Controllers
 
                     foreach (string service in services)
                     {
-                        if (service.Contains("pool") || service.Contains("Pool"))
+                        if (service.Contains("Pool"))
                         {
                             placesModel.Add(new PlaceViewModel()
                             {
@@ -144,6 +144,7 @@ namespace airbnb.Controllers
                                 ImagesUrls = imgUrls
 
                             });
+                            break;
                         }
                     }
                 }
